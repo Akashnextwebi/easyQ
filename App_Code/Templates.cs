@@ -192,13 +192,13 @@ public class Templates
 
         return result;
     }
-    public static decimal NoOfTemplates(SqlConnection conSP)
+    public static decimal NoOfTemplates(SqlConnection conEQ)
     {
         decimal x = 0;
         try
         {
             string query = " Select Count(Id) as cntT from Templates Where  Status != 'Deleted'";
-            SqlCommand cmd = new SqlCommand(query, conSP);
+            SqlCommand cmd = new SqlCommand(query, conEQ);
             SqlDataAdapter sda = new SqlDataAdapter(cmd);
             DataTable dt = new DataTable();
             sda.Fill(dt);

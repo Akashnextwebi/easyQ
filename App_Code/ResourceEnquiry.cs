@@ -108,13 +108,13 @@ public class ResourceEnquiry
         }
         return enquiries;
     }
-    public static decimal NoOfResourceEnquiry(SqlConnection conSP)
+    public static decimal NoOfResourceEnquiry(SqlConnection conEQ)
     {
         decimal x = 0;
         try
         {
             string query = " Select Count(Id) as cntR from ResourceEnquiry Where  Status != 'Deleted'";
-            SqlCommand cmd = new SqlCommand(query, conSP);
+            SqlCommand cmd = new SqlCommand(query, conEQ);
             SqlDataAdapter sda = new SqlDataAdapter(cmd);
             DataTable dt = new DataTable();
             sda.Fill(dt);
