@@ -177,15 +177,16 @@ Whether it's FDA, EU MDR, CDSCO, and more other global regulatory authority, our
                             <div class="row justify-content-center certicicate-images">
 
                                 <div class="col wow fadeInUp">
+                                    <div class="col wow fadeInUp">
+                                        <div class="image">
+                                            <img src="imgs/certificates/3.webp" alt="" />
+                                        </div>
+                                    </div>
                                     <div class="image">
                                         <img src="imgs/certificates/1.webp" alt="" />
                                     </div>
                                 </div>
-                                <div class="col wow fadeInUp">
-                                    <div class="image">
-                                        <img src="imgs/certificates/3.webp" alt="" />
-                                    </div>
-                                </div>
+
                                 <div class="col wow fadeInUp">
                                     <div class="image">
                                         <img src="imgs/certificates/4.webp" alt="" />
@@ -420,28 +421,28 @@ Whether it's FDA, EU MDR, CDSCO, and more other global regulatory authority, our
                                                         </div>
                                                     </div>
                                                     <div class="col-lg-8">
-                                                          <div class="row gy-3">
-                                                         <div class="col-12">
-                                                        <div class="counter-wrap ">
-                                                            <p class="fw-bold">
-                                                                Knowledge of Global Regulatory
+                                                        <div class="row gy-3">
+                                                            <div class="col-12">
+                                                                <div class="counter-wrap ">
+                                                                    <p class="fw-bold">
+                                                                        Knowledge of Global Regulatory
 
 
-                                                            </p>
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-12">
+                                                                <div class="counter-wrap ">
+                                                                    <p class="fw-bold">
+                                                                        Knowledge of different product images
+
+                                                                    </p>
+                                                                </div>
+                                                            </div>
                                                         </div>
                                                     </div>
-                                                    <div class="col-12">
-    <div class="counter-wrap ">
-        <p class="fw-bold">
-           Knowledge of different product images
 
-        </p>
-    </div>
-</div>  
-  </div>
-                                                    </div>
-                                                  
-                                                   
+
                                                 </div>
                                             </div>
                                         </div>
