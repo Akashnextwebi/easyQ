@@ -40,7 +40,7 @@
     <link href="css/responsive.css" rel="stylesheet" media="screen" />
     <link href="css/easyq.css" rel="stylesheet" media="screen" />
     <link href="js/snackbar/snackbar.min.css" rel="stylesheet" />
-    
+
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -146,7 +146,7 @@
         <footer class="main-footer">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-5 col-md-12">
+                    <div class="col-lg-4 col-md-12">
                         <!-- About Footer Start -->
                         <div class="about-footer">
                             <!-- Footer Logo Start -->
@@ -199,7 +199,7 @@
                         <!-- Footer Links End -->
                     </div>
 
-                    <div class="col-lg-2 col-md-4 col-6">
+                    <div class="col-lg-3 col-md-4 col-6">
                         <!-- Footer Links Start -->
                         <div class="footer-links">
                             <h3>Services</h3>
@@ -276,50 +276,46 @@
                 <img src="./imgs/whatsapp.png" alt="" srcset=""></a>
         </div>
         <div class="modal fade" id="enquireform" tabindex="-1" aria-labelledby="brochureModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <!-- Modal Header -->
-                <div class="modal-header">
-                    <h5 class="modal-title" id="brochureModalLabel">Book A Free Demo</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <!-- Modal Body with Form -->
-                <div class="modal-body">
-                    <div id="brochureForm">
-                        <div class="mb-3">
-                            <label for="nameInput" class="form-label">Name</label>
-                            <input type="text" class="form-control" id="txtBDName" maxlength="100" placeholder="Enter your name">
-                        </div>
-                        <div class="mb-3">
-                            <label for="emailInput" class="form-label">Email address</label>
-                            <input type="email" class="form-control" id="txtBDEmail" maxlength="150" placeholder="Enter your email">
-                        </div>
-                        <div class="mb-3">
-                            <label for="phoneInput" class="form-label">Phone Number</label>
-                            <input type="tel" class="form-control numberonly" id="txtBDPhone" maxlength="15" placeholder="Enter your phone number">
-                        </div>
-                        <div class="row mb-3">
-                            <div class="col-lg-6">
-                                <div class="mb-3">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="brochureModalLabel">Book A Free Demo</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+                    </div>
+                    <!-- Modal Body with Form -->
+                    <div class="modal-body">
+                        <div id="brochureForm">
+                            <div class="mb-2">
+                                <label for="nameInput" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="txtBDName" maxlength="100" placeholder="Enter your name">
+                            </div>
+                            <div class="mb-2">
+                                <label for="emailInput" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="txtBDEmail" maxlength="150" placeholder="Enter your email">
+                            </div>
+                            <div class="mb-2">
+                                <label for="phoneInput" class="form-label">Phone Number</label>
+                                <input type="tel" class="form-control numberonly" id="txtBDPhone" maxlength="15" placeholder="Enter your phone number">
+                            </div>
+                            <div class="row mb-2">
+                                <div class="col-lg-6">
                                     <label for="orgNameInput" class="form-label">Organization Name</label>
                                     <input type="text" class="form-control" id="txtBDOrg" placeholder="Enter your organization name" maxlength="150">
                                 </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="mb-3">
+                                <div class="col-lg-6">
                                     <label for="countryInput" class="form-label">Country</label>
                                     <input type="text" class="form-control" id="txtBDCountry" maxlength="100" placeholder="Enter your country">
                                 </div>
                             </div>
-                        </div>
-                        <div>
-                            <a href="javascript:void(0);" class="btn-default btn-highlighted" id="btnBookADemo">Submit Now <i class="fa-solid fa-arrow-right ms-2"></i></a>
+                            <div class="mt-3    ">
+                                <a href="javascript:void(0);" class="btn-default btn-highlighted" id="btnBookADemo">Submit Now <i class="fa-solid fa-arrow-right ms-2"></i></a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
         <%--<div class="modal fade" id="enquireform" tabindex="-1" aria-labelledby="brochureModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
