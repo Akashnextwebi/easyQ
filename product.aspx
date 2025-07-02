@@ -14,6 +14,23 @@
           top:12px;
           color:#000;   
       }
+
+      .hero-card .btn-secondary {
+    background-color: white;
+    color: var(--secondary-color);
+    border: 2px solid var(--secondary-color);
+    padding: 12px 24px;
+    border-radius: 8px;
+    box-shadow: 0 0 4px var(--secondary-color);
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(6px);
+}
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
@@ -36,8 +53,8 @@
                         <!-- Hero Body Start -->
                         <div class="hero-body justify-content-center wow fadeInUp" data-wow-delay="0.6s">
                             <!-- Hero Button Start -->
-                            <div class="hero-btn ">
-                                <a href="javascript:void(0);" class="btn-default btn-dark-blue" data-bs-toggle="modal" data-bs-target="#enquireform">Book Demo Now</a>
+                            <div class="hero-btn hero-card">
+                                <a href="javascript:void(0);" class="btn-secondary" data-bs-toggle="modal" data-bs-target="#enquireform">Book Demo Now</a>
 
                             </div>
                             <!-- Hero Button End -->
@@ -376,7 +393,7 @@ Easy to use without complexicity.
 
                                     </span>
                                 </h2>
-                              <p>Securely draft, authorize, and communicate your organization’s quality Objective, and communicate your organization’s quality objective while making sure they comply with regulatory requirements and seamless integration with key quality procedures.
+<p>Securely draft, authorize, and communicate your organization’s quality objective and communicate your organization’s quality commitments while making sure they comply with regulatory requirements and seamless integration with key quality procedures.
 
 </p>
                             </div>

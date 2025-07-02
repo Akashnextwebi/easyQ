@@ -47,6 +47,10 @@
     line-height: 1.4em;
     min-height: 85px;
 }
+        
+         .footer-social-links ul li a:hover{
+ color:#fff !important;}
+                
     </style>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -195,7 +199,7 @@
                             <h3>quick links</h3>
                             <ul>
                                 <li><a href="/about-us.aspx">About us</a></li>
-                                <li><a href="/product.aspx">Products</a></li>
+                                <li><a href="/product.aspx">Product</a></li>
                                 <li><a href="/articles.aspx">Articles</a></li>
                                 <li><a href="/template.aspx">Templates</a></li>
                                 <li><a href="/webinars.aspx">Webinars</a></li>

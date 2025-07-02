@@ -216,7 +216,8 @@
                             <div class="mission-vision-content">
                                 <h3>our vision</h3>
                                 <p>
-                                    To lead the global transformation of Medical Device Quality Systems empowering manufacturers of all sizes with smrt tools that promotes innovation, ensure patient safety, and deliver regulatory confidence at every stage.
+                                                                        To revolutionize Quality management system for the Medical Device industry by implementing cloud-native, AI-driven technologies that boost regulatory excellence, speed up market entry, and remove compliance bottlenecks. 
+
                                 </p>
                             </div>
                         </div>
@@ -235,7 +236,8 @@
                             <div class="mission-vision-content">
                                 <h3>our mission</h3>
                                 <p>
-                                    To revolutionize Quality management system for the Medical Device industry by implementing cloud-native, AI-driven technologies that boost regulatory excellence, speed up market entry, and remove compliance bottlenecks. 
+                                                                        To lead the global transformation of Medical Device Quality Systems empowering manufacturers of all sizes with smrt tools that promotes innovation, ensure patient safety, and deliver regulatory confidence at every stage.
+
                                 </p>
                             </div>
                         </div>
