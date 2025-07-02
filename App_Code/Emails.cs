@@ -1732,11 +1732,11 @@ Your password remains unchanged.</p></td> </tr> <tr>
             mail.Body = @"
 <div style='font-family:Segoe UI, Roboto, sans-serif; max-width:600px; margin:0 auto; border:1px solid #e0e0e0; border-radius:10px; overflow:hidden;'>
     <div style='background-color:#00264d; padding:20px; color:white; text-align:center;'>
-        <h2 style='margin:0;'>New Contact Request</h2>
+        <h2 style='margin:0;'>New Demo Booking Request</h2>
     </div>
     <div style='padding:20px; background-color:#f9f9f9;'>
         <p>Hi Admin,</p>
-        <p>You have received a new contact request from <strong>" + cat.UserName + @"</strong>.</p>
+        <p>You have received a new Demo Booking request from <strong>" + cat.UserName + @"</strong>.</p>
         <div style='border-top:1px solid #ccc; margin:20px 0;'></div>
         <table cellpadding='8' cellspacing='0' style='width:100%; font-size:14px; color:#333;'>
             <tr>
