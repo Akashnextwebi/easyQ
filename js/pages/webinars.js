@@ -67,7 +67,7 @@ function BindAllWebinars() {
                 listings += "<div class='video-guide-item'>";
                 listings += "<div class='video-guide-image'>";
                 listings += "<a href='" + webinars[i].YoutubeLink + "' class='popup-video' data-cursor-text='Play'>";
-                listings += "<figure class='image-anime reveal'>";
+                listings += "<figure class='image-anime '>";
                 listings += "<img src='/" + img + "' alt='" + webinars[i].Title + "' />";
                 listings += "</figure>";
                 listings += "</a>";

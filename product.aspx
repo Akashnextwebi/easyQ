@@ -247,7 +247,7 @@ easyQ eQMS ensures compliance at any point of time
                     <!-- Section Tite Start -->
                     <div class="section-title">
 
-                        <h2 class="text-anime-style-2">
+                        <h2 class="text-anime-style-2 text-center ">
                             Why Implement Our <span>eQMS ?</span> </h2>
                    
                     </div>
