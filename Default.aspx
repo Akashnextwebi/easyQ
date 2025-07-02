@@ -25,7 +25,7 @@
                     <div class="hero-content text-start">
                       <!-- Section Title Start -->
                       <div class="section-title text-start dark-section">
-                        <span class="text-accent-secondary">India’s 1st eQMS designed for global Medtech Industry</span>
+                        <span class="text-accent-secondary text-white">India’s 1st eQMS designed for global Medtech Industry</span>
                         <h1 class="text-anime-style-2">
                         Smart Quality Management System for Medical Device Companies
                         </h1>
@@ -380,7 +380,7 @@ It is a modern, <b>cloud-based QMS</b> that works from day one
               </div>
             </div>
           </div> </div>
-          <div class="easyq-counter">
+          <div class="easyq-counter d-none ">
             <div class="col-12 col-lg-12 mx-auto">
               <div class="row">
                 <div class="col-3">
@@ -829,8 +829,7 @@ It is a modern, <b>cloud-based QMS</b> that works from day one
       </div>
 
       <div class="row">
-          <%=strArticles %>
-        <%--<div class="col-lg-4 col-md-6">
+        <div class="col-lg-4 col-md-6">
           <!-- Post Item Start -->
           <div class="post-item wow fadeInUp">
             <!-- Post Featured Image Start-->
@@ -936,7 +935,7 @@ It is a modern, <b>cloud-based QMS</b> that works from day one
             <!-- Post Item Body End -->
           </div>
           <!-- Post Item End -->
-        </div>--%>
+        </div>
       </div>
     </div>
   </div>
@@ -975,8 +974,7 @@ It is a modern, <b>cloud-based QMS</b> that works from day one
         <div class="col-lg-6">
           <!-- FAQ Accordion Start -->
           <div class="faq-accordion" id="accordion">
-                <%=strFAQs %>
-           <%-- <!-- FAQ Item Start -->
+            <!-- FAQ Item Start -->
             <div class="accordion-item wow fadeInUp">
               <h2 class="accordion-header" id="heading1">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1"
@@ -1091,7 +1089,7 @@ It is a modern, <b>cloud-based QMS</b> that works from day one
                 </div>
               </div>
             </div>
-            <!-- FAQ Item End -->--%>
+            <!-- FAQ Item End -->
           </div>
           <!-- FAQ Accordion End -->
         </div>
@@ -1122,46 +1120,48 @@ It is a modern, <b>cloud-based QMS</b> that works from day one
         </div>
       </div>
     </div>
-  </section>   
+  </section>  
+    
     <div class="modal fade" id="brochureModal" tabindex="-1" aria-labelledby="brochureModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-            <!-- Modal Header -->
-            <div class="modal-header">
-                <h5 class="modal-title" id="brochureModalLabel">Download Articles</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
+       <div class="modal-dialog modal-dialog-centered">
+           <div class="modal-content">
 
-            <!-- Modal Body with Form -->
-            <div class="modal-body">
-                <div id="brochureForm">
-                    <div class="mb-3">
-                        <label for="txtName" class="form-label">Name<sup class="text-danger">*</sup></label>
-                        <input type="text" class="form-control" id="txtName" maxlength="100" placeholder="Enter your name">
-                    </div>
-                    <div class="mb-3">
-                        <label for="txtEmail" class="form-label">Email address<sup class="text-danger">*</sup></label>
-                        <input type="email" class="form-control" id="txtEmail" maxlength="150" placeholder="Enter your email">
-                    </div>
-                    <div class="mb-3">
-                        <label for="txtPhone" class="form-label">Phone Number<sup class="text-danger">*</sup></label>
-                        <input type="tel" class="form-control numberonly" id="txtPhone" maxlength="15" placeholder="Enter your phone number">
-                    </div>
-                    <div class="mb-3">
-                        <label for="txtOrg" class="form-label">Organization Name<sup class="text-danger">*</sup></label>
-                        <input type="text" class="form-control" id="txtOrg" maxlength="150" placeholder="Enter your Organization Name">
-                    </div>
-                    <div class="">
-                        <a href="javascript:void(0);" id="btnResourceDownload"  class="btn-default btn-highlighted">Download Now</a>
-                    </div>
-                </div>
-            </div>
+               <!-- Modal Header -->
+               <div class="modal-header">
+                   <h5 class="modal-title" id="brochureModalLabel">Download Articles</h5>
+                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+               </div>
 
-
-        </div>
-    </div>
+               <!-- Modal Body with Form -->
+               <div class="modal-body">
+                   <div id="brochureForm">
+                       <div class="mb-3">
+                           <label for="nameInput" class="form-label">Name</label>
+                           <input type="text" class="form-control" id="nameInput" placeholder="Enter your name" required>
+                       </div>
+                       <div class="mb-3">
+                           <label for="emailInput" class="form-label">Email address</label>
+                           <input type="email" class="form-control" id="emailInput" placeholder="Enter your email" required>
+                       </div>
+                       <div class="mb-3">
+                           <label for="phoneInput" class="form-label">Phone Number</label>
+                           <input type="tel" class="form-control" id="phoneInput" placeholder="Enter your phone number" required>
+                       </div>
+                        <div class="mb-3">
+    <label for="phoneInput" class="form-label">Organization Name </label>
+    <input type="text" class="form-control" id="org name" placeholder="Enter your organization name" required>
 </div>
-<script src="js/jquery-3.6.0.min.js"></script>
-<script src="js/pages/default.js"></script>
+
+                       <div class="">
+                           <a href="#" class="btn-default btn-highlighted">Download Now <i class="fa-solid fa-download ms-2"></i></a>
+
+                       </div>
+                   </div>
+               </div>
+
+
+           </div>
+       </div>
+   </div>
 </asp:Content>
 
