@@ -379,7 +379,34 @@
     scrollContainer.scrollBy({ left: 250, behavior: 'smooth' });
   });
         </script>
+         <script>
+             $(document).ready(function () {
+                 $('.numberonly').on('keydown', function (e) {
+                     // Allow: backspace, delete, tab, escape, enter, arrows
+                     if ($.inArray(e.keyCode, [8, 9, 27, 13, 37, 38, 39, 40, 46]) !== -1 ||
+                         // Allow Ctrl+A, Ctrl+C, Ctrl+V, Ctrl+X
+                         (e.ctrlKey === true && $.inArray(e.keyCode, [65, 67, 86, 88]) !== -1)) {
+                         return; // ✅ Allow these keys
+                     }
 
+                     // Block non-numeric keys
+                     if ((e.shiftKey || (e.keyCode < 48 || e.keyCode > 57)) &&
+                         (e.keyCode < 96 || e.keyCode > 105)) {
+                         e.preventDefault(); // Block anything that's not a number
+                     }
+                 });
+
+                 // Disable paste and drop
+                 $('.numberonly').on('paste drop', function (e) {
+                     e.preventDefault();
+                 });
+
+                 // Clean non-numeric input on change
+                 $('.numberonly').on('input', function () {
+                     $(this).val($(this).val().replace(/\D/g, ''));
+                 });
+             });
+         </script>
     </form>
 </body>
 </html>
