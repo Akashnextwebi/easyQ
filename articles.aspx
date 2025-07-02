@@ -156,7 +156,7 @@
                 <!-- Modal Header -->
                 <div class="modal-header">
                     <h5 class="modal-title" id="brochureModalLabel">Download Articles</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
                 </div>
 
                 <!-- Modal Body with Form -->
@@ -179,7 +179,7 @@
                             <input type="text" class="form-control" id="txtOrg" maxlength="150" placeholder="Enter your Organization Name">
                         </div>
                         <div class="">
-                            <a href="javascript:void(0);" id="btnResourceDownload" class="btn-default btn-highlighted">Download Now <i class="fa-solid fa-download ms-2"></i></a>
+                            <a href="javascript:void(0);" id="btnResourceDownload" class="btn-default btn-highlighted">Download Now </a>
                         </div>
                     </div>
                 </div>
