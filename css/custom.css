@@ -6779,3 +6779,17 @@ img.cta-image1 {
     grid-template-columns:repeat(2,1fr);
     gap:1rem;
 }
+
+.company-ul li {
+  background:var(--primary-color);
+  color:#fff;
+  padding:15px;
+  margin-bottom:0px !important;
+  border-radius:12px;
+}
+    .company-ul li small{
+        font-size:14px;
+        line-height:20px;
+        display:block;
+
+    }
