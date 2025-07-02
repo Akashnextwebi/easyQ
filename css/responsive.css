@@ -24,7 +24,14 @@
 
 @media (max-width: 767px) {
     /* for screen 576px  */
-
+    .company-ul {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+    }
+    .company-ul li {
+       margin-bottom:20px;
+    }
 }
 
 @media (max-width: 576px) {
