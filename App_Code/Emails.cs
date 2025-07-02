@@ -454,7 +454,7 @@ public class Emails
                                                                     <p style='font-size: 14px;line-height:22px!important;text-align:center;margin-top:0px;color:#573e40;margin-bottom:30px;'>If you have made this request, please click on the following link to reset your password</p>
                                                                     <a href='" + link + @"' style='padding: 10px 30px;background: #e7757f;text-decoration: none;color: #fff;font-size: 20px;'>Reset Password</a>
                                                                     <p style='font-size: 14px;line-height:22px!important;text-align:center;margin-top: 20px;color:#573e40;margin-bottom:30px;'>
-                                                                        If clicking the button does not work, copy the URL below and paste it into your browser:<br><a href='" + link + @"'>"+ link + @"</a>
+                                                                        If clicking the button does not work, copy the URL below and paste it into your browser:<br><a href='" + link + @"'>" + link + @"</a>
                                                                         <br><br>If you have not requested a password reset, please ignore this email.<br>
                                                                         Your password remains unchanged.
                                                                     </p>
@@ -1620,7 +1620,7 @@ Your password remains unchanged.</p></td> </tr> <tr>
       <h1>Thank You from EasyQ Solutions</h1>
     </div>
     <div class='email-body'>
-      <p>Hi "+name+@",</p>
+      <p>Hi " + name + @",</p>
       <p>Thank you for reaching out to us. We truly appreciate your interest and will get back to you as soon as possible.</p>
       <p>If you’d like to know more about what we do, feel free to explore our website.</p>
       <a class='button' href='https://easyqsolutions.com/' target='_blank'>Visit EasyQ Solutions</a>
@@ -1675,19 +1675,89 @@ Your password remains unchanged.</p></td> </tr> <tr>
         <table cellpadding='8' cellspacing='0' style='width:100%; font-size:14px; color:#333;'>
             <tr>
                 <td style='width:150px; font-weight:bold;'>Name</td>
-                <td>" + cat.UserName+@"</td>
+                <td>" + cat.UserName + @"</td>
             </tr>
             <tr style='background-color:#f1f1f1;'>
                 <td style='font-weight:bold;'>Email</td>
-                <td>"+cat.EmailId+@"</td>
+                <td>" + cat.EmailId + @"</td>
             </tr>
             <tr>
                 <td style='font-weight:bold;'>Phone Number</td>
-                <td>"+cat.ContactNo+ @"</td>
+                <td>" + cat.ContactNo + @"</td>
             </tr> 
             <tr style='background-color:#f1f1f1;'>
                 <td style='font-weight:bold;'>Message</td>
-                <td>"+cat.Message+ @"</td>
+                <td>" + cat.Message + @"</td>
+            </tr>
+        </table>
+        <div style='border-top:1px solid #ccc; margin:20px 0;'></div>
+        <p style='margin-bottom:0;'>Regards,<br><strong>easyQ Solutions</strong></p>
+    </div>
+</div>
+";
+            mail.IsBodyHtml = true;
+            SmtpClient smtp = new SmtpClient();
+            smtp.Host = ConfigurationManager.AppSettings["host"];
+            smtp.Port = Convert.ToInt32(ConfigurationManager.AppSettings["port"]);
+            smtp.Credentials = new System.Net.NetworkCredential
+                           (ConfigurationManager.AppSettings["userName"], ConfigurationManager.AppSettings["password"]);
+            smtp.EnableSsl = Convert.ToBoolean(ConfigurationManager.AppSettings["enableSsl"]);
+            smtp.Send(mail);
+            return 1;
+        }
+        catch (Exception ex)
+        {
+            ExceptionCapture.CaptureException(HttpContext.Current.Request.Url.PathAndQuery, "ContactRequest", ex.Message);
+            return 0;
+        }
+    }
+
+    public static int DemoRequestToAdmin(BookADemo cat)
+    {
+        try
+        {
+            MailMessage mail = new MailMessage();
+            mail.To.Add(ConfigurationManager.AppSettings["ToMail"]);
+            if (!string.IsNullOrEmpty(ConfigurationManager.AppSettings["CCMail"]))
+            {
+                mail.CC.Add(ConfigurationManager.AppSettings["CCMail"]);
+            }
+            if (!string.IsNullOrEmpty(ConfigurationManager.AppSettings["BCCMail"]))
+            {
+                mail.Bcc.Add(ConfigurationManager.AppSettings["BCCMail"]);
+            }
+            mail.From = new MailAddress(ConfigurationManager.AppSettings["from"], ConfigurationManager.AppSettings["fromName"]);
+
+            mail.Subject = "New Demo Booking Request via EasyQ Solutions Website  ( " + DateTime.Now + " )";
+            mail.Body = @"
+<div style='font-family:Segoe UI, Roboto, sans-serif; max-width:600px; margin:0 auto; border:1px solid #e0e0e0; border-radius:10px; overflow:hidden;'>
+    <div style='background-color:#00264d; padding:20px; color:white; text-align:center;'>
+        <h2 style='margin:0;'>New Contact Request</h2>
+    </div>
+    <div style='padding:20px; background-color:#f9f9f9;'>
+        <p>Hi Admin,</p>
+        <p>You have received a new contact request from <strong>" + cat.UserName + @"</strong>.</p>
+        <div style='border-top:1px solid #ccc; margin:20px 0;'></div>
+        <table cellpadding='8' cellspacing='0' style='width:100%; font-size:14px; color:#333;'>
+            <tr>
+                <td style='width:150px; font-weight:bold;'>Name</td>
+                <td>" + cat.UserName + @"</td>
+            </tr>
+            <tr style='background-color:#f1f1f1;'>
+                <td style='font-weight:bold;'>Email</td>
+                <td>" + cat.EmailId + @"</td>
+            </tr>
+            <tr>
+                <td style='font-weight:bold;'>Phone Number</td>
+                <td>" + cat.ContactNo + @"</td>
+            </tr> 
+            <tr style='background-color:#f1f1f1;'>
+                <td style='font-weight:bold;'>Organization</td>
+                <td>" + cat.Organization + @"</td>
+            </tr>
+ <tr style='background-color:#f1f1f1;'>
+                <td style='font-weight:bold;'>Country</td>
+                <td>" + cat.Country + @"</td>
             </tr>
         </table>
         <div style='border-top:1px solid #ccc; margin:20px 0;'></div>

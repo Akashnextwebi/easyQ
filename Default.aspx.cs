@@ -161,6 +161,8 @@ public partial class _Default : System.Web.UI.Page
             RE.ContactNo = phone;
             RE.Country = country;
             RE.Status = "Active";
+            Emails.ContactUSRequestToCustomer(name, email);
+            Emails.DemoRequestToAdmin(RE);
             int result = BookADemo.InserBookADemo(conEQ, RE);
             if (result > 0)
             {
