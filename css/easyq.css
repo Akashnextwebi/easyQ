@@ -1,0 +1,88 @@
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.easy-goal-section .process-step-box::before {
+  content: none;
+}
+
+.easyq-counter {
+  margin-top: 60px;
+}
+
+.easyq-counter .counter-wrap {
+  text-align: center;
+  padding: 20px;
+  border-radius: 12px;
+  background: var(--accent-color);
+  color: #ffffff;
+}
+
+.easyq-counter .counter-wrap h3 {
+  font-size: 44px;
+  color: #ffffff;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.easyq-counter .counter-wrap p {
+  margin-bottom: 0;
+}
+
+.easyq-about-us {
+  background: #0c50730f;
+}
+
+.our-partner-item {
+  background: #fff;
+  padding: 12px;
+  border-radius: 10px;
+  min-width: 200px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.our-partners-list {
+  gap: 50px;
+}
+
+.certificates-row {
+  display: flex;
+  gap: 50px;
+  max-width: 1200px;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.header-btn {
+  gap: 16px;
+}
+
+.our-tesimonial .slider-arrow {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  margin: 0;
+  background-image: none;
+  left: unset;
+  right: unset;
+}
+
+.our-tesimonial .slider-arrow:after {
+  content: none;
+}
+
+.testimonial-arrows {
+  display: flex;
+  gap: 20px;
+}
+
+.testimonial-arrows .slider-arrow {
+  width: 44px;
+  height: 44px;
+  background: #69c5c4;
+  border-radius: 100%;
+  color: #fff;
+}
