@@ -44,7 +44,7 @@
                       <div class="hero-body wow fadeInUp" data-wow-delay="0.2s">
                         <!-- Hero Button Start -->
                         <div class="hero-btn">
-                          <a href="#" class="btn-default btn-highlighted">Book Demo Now</a>
+                          <a href="javascript:void(0);" class="btn-default btn-highlighted" data-bs-toggle="modal" data-bs-target="#enquireform">Book Demo Now</a>
                           <a href="#demo" class="btn-secondary ms-3">Explore Features</a>
 
                         </div>
@@ -93,7 +93,7 @@
                       <div class="hero-body wow fadeInUp" data-wow-delay="0.2s">
                         <!-- Hero Button Start -->
                         <div class="hero-btn">
-                          <a href="#" class="btn-default btn-highlighted">Book Demo Now</a>
+                          <a href="javascript:void(0);" class="btn-default btn-highlighted" data-bs-toggle="modal" data-bs-target="#enquireform">Book Demo Now</a>
                           <a href="#demo" class="btn-secondary ms-3">Explore Features</a>
                         </div>
                         <!-- Hero Button End -->

@@ -148,4 +148,33 @@ public partial class _Default : System.Web.UI.Page
         }
     }
 
+    [WebMethod(EnableSession = true)]
+    public static string SubmitBookADemo(string name, string phone, string email, string org, string country)
+    {
+        SqlConnection conEQ = new SqlConnection(ConfigurationManager.ConnectionStrings["conEQ"].ConnectionString);
+        try
+        {
+            BookADemo RE = new BookADemo();
+            RE.UserName = name;
+            RE.Organization = org;
+            RE.EmailId = email;
+            RE.ContactNo = phone;
+            RE.Country = country;
+            RE.Status = "Active";
+            int result = BookADemo.InserBookADemo(conEQ, RE);
+            if (result > 0)
+            {
+                return "Success";
+            }
+            else
+            {
+                return "Error";
+            }
+        }
+        catch (Exception ex)
+        {
+            ExceptionCapture.CaptureException(HttpContext.Current.Request.Url.PathAndQuery, "SubmitBookADemo", ex.Message);
+            return "Error";
+        }
+    }
 }

@@ -37,7 +37,7 @@
                         <div class="hero-body justify-content-center wow fadeInUp" data-wow-delay="0.6s">
                             <!-- Hero Button Start -->
                             <div class="hero-btn ">
-                                <a href="#" class="btn-default btn-dark-blue">Book Demo Now</a>
+                                <a href="javascript:void(0);" class="btn-default btn-dark-blue" data-bs-toggle="modal" data-bs-target="#enquireform">Book Demo Now</a>
 
                             </div>
                             <!-- Hero Button End -->
@@ -168,7 +168,7 @@ easyQ eQMS ensures compliance at any point of time
 </ul>
 
                                 </div>
-                                <a href="#" class="btn-default btn-highlighted wow fadeInUp" data-wow-delay="0.4s">Book
+                                <a href="javascript:void(0);" class="btn-default btn-highlighted wow fadeInUp" data-wow-delay="0.4s" data-bs-toggle="modal" data-bs-target="#enquireform">Book
                                     a
                                     Demo</a>
                                 <!-- Section Tite End -->
@@ -616,7 +616,7 @@ Easy to use without complexicity.
                             <p class="feature-description">
                                 Book a demo and see our eQMS <br>in action
                             </p>
-                            <a href="#" class="readmore-btn" contenteditable="false" style="cursor: pointer;"> Book Demo
+                            <a href="javascript:void(0);" class="readmore-btn" contenteditable="false" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#enquireform"> Book Demo
                             </a>
 
                         </div>

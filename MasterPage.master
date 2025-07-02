@@ -4,409 +4,404 @@
 
 <html>
 <head runat="server">
-         <!-- Meta -->
- <meta charset="utf-8" />
- <meta http-equiv="X-UA-Compatible" content="IE=edge" />
- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
- <meta name="description"
-   content="Digitize your quality management system to automate your regulatory compliance workflow with easyq QMS software" />
- <meta name="keywords" content="Quality Management Software: 3.7K Volume; KD: 43%, Medical Devices: 32.7K volume" />
- <meta name="robots" content="noindex, nofollow" />
- <!-- Page Title -->
- <title>Quality Management Software for Medical Devices: easyQ eQMS</title>
- <!-- Favicon Icon -->
- <link rel="shortcut icon" type="image/x-icon" href="./imgs/Favicon1.png" />
- <!-- Google Fonts Css-->
- <link rel="preconnect" href="https://fonts.googleapis.com/" />
- <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
- <link
-   href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&amp;display=swap"
-   rel="stylesheet" />
- <!-- Bootstrap Css -->
- <link href="css/bootstrap.min.css" rel="stylesheet" media="screen" />
- <!-- SlickNav Css -->
- <link href="css/slicknav.min.css" rel="stylesheet" />
- <!-- Swiper Css -->
- <link rel="stylesheet" href="css/swiper-bundle.min.css" />
- <!-- Font Awesome Icon Css-->
- <link href="css/all.min.css" rel="stylesheet" media="screen" />
- <link href="https://cdn.lineicons.com/5.0/lineicons.css" rel="stylesheet" />
- <!-- Animated Css -->
- <link href="css/animate.css" rel="stylesheet" />
- <!-- Magnific Popup Core Css File -->
- <link rel="stylesheet" href="css/magnific-popup.css" />
- <!-- Main Custom Css -->
- <link href="css/custom.css" rel="stylesheet" media="screen" />
- <link href="css/easyq.css" rel="stylesheet" media="screen" />
-    <asp:ContentPlaceHolder id="head" runat="server">   
- 
+    <!-- Meta -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <meta name="description"
+        content="Digitize your quality management system to automate your regulatory compliance workflow with easyq QMS software" />
+    <meta name="keywords" content="Quality Management Software: 3.7K Volume; KD: 43%, Medical Devices: 32.7K volume" />
+    <meta name="robots" content="noindex, nofollow" />
+    <!-- Page Title -->
+    <title>Quality Management Software for Medical Devices: easyQ eQMS</title>
+    <!-- Favicon Icon -->
+    <link rel="shortcut icon" type="image/x-icon" href="./imgs/Favicon1.png" />
+    <!-- Google Fonts Css-->
+    <link rel="preconnect" href="https://fonts.googleapis.com/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&amp;display=swap"
+        rel="stylesheet" />
+    <!-- Bootstrap Css -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen" />
+    <!-- SlickNav Css -->
+    <link href="css/slicknav.min.css" rel="stylesheet" />
+    <!-- Swiper Css -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <!-- Font Awesome Icon Css-->
+    <link href="css/all.min.css" rel="stylesheet" media="screen" />
+    <link href="https://cdn.lineicons.com/5.0/lineicons.css" rel="stylesheet" />
+    <!-- Animated Css -->
+    <link href="css/animate.css" rel="stylesheet" />
+    <!-- Magnific Popup Core Css File -->
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+    <!-- Main Custom Css -->
+    <link href="css/custom.css" rel="stylesheet" media="screen" />
+    <link href="css/easyq.css" rel="stylesheet" media="screen" />
+    <link href="js/snackbar/snackbar.min.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
     <form id="form1" runat="server">
-         <!-- Header Start -->
-  <header class="main-header">
-    <div class="header-sticky">
-      <nav class="navbar navbar-expand-lg">
-        <div class="container">
-          <!-- Logo Start -->
-          <a class="navbar-brand" href="default.aspx">
-            <img src="imgs/logo.png" alt="Logo" />
-          </a>
-          <!-- Logo End -->
+        <!-- Header Start -->
+        <header class="main-header">
+            <div class="header-sticky">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container">
+                        <!-- Logo Start -->
+                        <a class="navbar-brand" href="default.aspx">
+                            <img src="imgs/logo.png" alt="Logo" />
+                        </a>
+                        <!-- Logo End -->
 
-          <!-- Main Menu Start -->
-          <div class="collapse navbar-collapse main-menu">
-            <div class="nav-menu-wrapper">
-              <ul class="navbar-nav mr-auto" id="menu">
-                <li class="nav-item">
-                  <a class="nav-link" href="default.aspx">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="about-us.aspx">About Us</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="product.aspx">Our Product</a>
-                </li>
-                <li class="nav-item submenu">
-                  <a class="nav-link" href="#">Services</a>
-                  <ul>
-                    <li class="nav-item">
-                      <a class="nav-link" href="regulatoty-approvals.aspx">
-                       Regulatory Submissions
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="./samd-and-ai-deviciess.aspx">
-                        SAMD & Ai Devices
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="qms.aspx">QMS</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="clinical-evaluation.aspx">
-                        Clinical Regulatory 
-                      </a>
-                    </li>
-                       <li class="nav-item">
-   <a class="nav-link" href="#">
-    Product Compliance 
+                        <!-- Main Menu Start -->
+                        <div class="collapse navbar-collapse main-menu">
+                            <div class="nav-menu-wrapper">
+                                <ul class="navbar-nav mr-auto" id="menu">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="default.aspx">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="about-us.aspx">About Us</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="product.aspx">Our Product</a>
+                                    </li>
+                                    <li class="nav-item submenu">
+                                        <a class="nav-link" href="#">Services</a>
+                                        <ul>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="regulatoty-approvals.aspx">Regulatory Submissions
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="./samd-and-ai-deviciess.aspx">SAMD & Ai Devices
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="qms.aspx">QMS</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="clinical-evaluation.aspx">Clinical Regulatory 
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">Product Compliance 
 
 
 
 
 
 
-   </a>
- </li>
-                  </ul>
-                </li>
-                <li class="nav-item submenu">
-                  <a class="nav-link" href="#">Resources</a>
-                  <ul>
-                    <li class="nav-item">
-                      <a class="nav-link" href="articles.aspx">Articles</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="template.aspx">Templates</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="webinars.aspx">Webinars</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="faq.aspx">FAQ's</a>
-                    </li>
-                        
-                  </ul>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact-us.aspx">Contact Us</a>
-                </li>
-              </ul>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item submenu">
+                                        <a class="nav-link" href="#">Resources</a>
+                                        <ul>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="articles.aspx">Articles</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="template.aspx">Templates</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="webinars.aspx">Webinars</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="faq.aspx">FAQ's</a>
+                                            </li>
+
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="contact-us.aspx">Contact Us</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- Header Btn Start -->
+                            <div class="header-btn d-inline-flex">
+                                <%--<a href="#" class="btn-default btn-highlighted">get started</a>--%>
+                                <a href="javascript:void(0)" class="btn-secondary" data-bs-toggle="modal" data-bs-target="#enquireform">Book a Free Demo</a>
+
+                            </div>
+                            <!-- Header Btn End -->
+                        </div>
+                        <!-- Main Menu End -->
+                        <div class="navbar-toggle"></div>
+                    </div>
+                </nav>
+                <div class="responsive-menu"></div>
             </div>
-
-            <!-- Header Btn Start -->
-            <div class="header-btn d-inline-flex">
-              <%--<a href="#" class="btn-default btn-highlighted">get started</a>--%>
-              <a href="#" class="btn-secondary" data-bs-toggle="modal" data-bs-target="#enquireform">Book a Free Demo</a>
-
-            </div>
-            <!-- Header Btn End -->
-          </div>
-          <!-- Main Menu End -->
-          <div class="navbar-toggle"></div>
+        </header>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
         </div>
-      </nav>
-      <div class="responsive-menu"></div>
-    </div>
-  </header>
-    <div>
-        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
-        
-        </asp:ContentPlaceHolder>
-    </div>
         <footer class="main-footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-5 col-md-12">
-          <!-- About Footer Start -->
-          <div class="about-footer">
-            <!-- Footer Logo Start -->
-            <div class="footer-logo">
-              <img src="imgs/logo-light.png" alt="" />
-            </div>
-            <!-- Footer Logo End -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-md-12">
+                        <!-- About Footer Start -->
+                        <div class="about-footer">
+                            <!-- Footer Logo Start -->
+                            <div class="footer-logo">
+                                <img src="imgs/logo-light.png" alt="" />
+                            </div>
+                            <!-- Footer Logo End -->
 
-            <!-- About Footer Content Start -->
-            <div class="about-footer-content">
-              <p>
-                Need help making sense of compliance? We’re here to make it
+                            <!-- About Footer Content Start -->
+                            <div class="about-footer-content">
+                                <p>
+                                    Need help making sense of compliance? We’re here to make it
                 simple, stress-free, and tailored just for you. Let’s build
                 something great—together!
-              </p>
+                                </p>
+                            </div>
+                            <!-- About Footer Content End -->
+
+                            <!-- Footer Social Link Start -->
+                            <div class="footer-social-links">
+                                <ul>
+                                    <li>
+                                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- Footer Social Link End -->
+                        </div>
+                        <!-- About Footer End -->
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-6">
+                        <!-- Footer Links Start -->
+                        <div class="footer-links">
+                            <h3>quick links</h3>
+                            <ul>
+                                <li><a href="#">About us</a></li>
+                                <li><a href="#">Products</a></li>
+                                <li><a href="#">Articles</a></li>
+                                <li><a href="#">Templates</a></li>
+                                <li><a href="#">Webinars</a></li>
+
+                                <li><a href="#">FAQs</a></li>
+                            </ul>
+                        </div>
+                        <!-- Footer Links End -->
+                    </div>
+
+                    <div class="col-lg-2 col-md-4 col-6">
+                        <!-- Footer Links Start -->
+                        <div class="footer-links">
+                            <h3>Services</h3>
+                            <ul>
+                                <li><a href="#">QMS Services</a></li>
+                                <li><a href="#">Regulatory</a></li>
+                                <li><a href="#">Clinical</a></li>
+                                <li><a href="#">disclaimer</a></li>
+                            </ul>
+                        </div>
+                        <!-- Footer Links End -->
+                    </div>
+
+                    <div class="col-lg-3 col-md-4">
+                        <!-- Footer Contact Box Start -->
+                        <div class="footer-contact-box footer-links">
+                            <h3>contact us</h3>
+
+                            <!-- Footer Contact Item Start -->
+                            <div class="footer-contact-item">
+                                <div class="icon-box">
+                                    <img src="images/icon-mail-white.svg" alt="" />
+                                </div>
+                                <div class="footer-contact-content">
+                                    <p><a href="#">info@easyqsolutions.com</a></p>
+                                </div>
+                            </div>
+                            <!-- Footer Contact Item End -->
+
+                            <!-- Footer Contact Item Start -->
+                            <div class="footer-contact-item">
+                                <div class="icon-box">
+                                    <img src="images/icon-phone.svg" alt="" />
+                                </div>
+                                <div class="footer-contact-content">
+                                    <p><a href="tel:911234567890">+91 12345 67890</a></p>
+                                </div>
+                            </div>
+                            <!-- Footer Contact Item End -->
+                        </div>
+                        <!-- Footer Contact Box End -->
+                    </div>
+                </div>
+
+                <!-- Footer Copyright Section Start -->
+                <div class="footer-copyright">
+                    <div class="row align-items-center">
+                        <div class="col-md-5">
+                            <!-- Footer Copyright Start -->
+                            <div class="footer-copyright-text">
+                                <p>Copyright © 2025 All Rights Reserved.</p>
+                            </div>
+                            <!-- Footer Copyright End -->
+                        </div>
+
+                        <div class="col-md-7">
+                            <!-- Footer Menu Start -->
+                            <div class="footer-menu">
+                                <ul>
+                                    <li><a href="#">privacy policy</a></li>
+                                    <li><a href="#">terms & conditions</a></li>
+                                </ul>
+                            </div>
+                            <!-- Footer Menu End -->
+                        </div>
+                    </div>
+                </div>
+                <!-- Footer Copyright Section End -->
             </div>
-            <!-- About Footer Content End -->
-
-            <!-- Footer Social Link Start -->
-            <div class="footer-social-links">
-              <ul>
-                <li>
-                  <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                </li>
-
-                <li>
-                  <a href="#"><i class="fa-brands fa-youtube"></i></a>
-                </li>
-              </ul>
-            </div>
-            <!-- Footer Social Link End -->
-          </div>
-          <!-- About Footer End -->
+        </footer>
+        <div class="whasapp-btn">
+            <a href="" target="_blank" contenteditable="false" style="cursor: pointer;">
+                <img src="./imgs/whatsapp.png" alt="" srcset=""></a>
         </div>
+        <div class="modal fade" id="enquireform" tabindex="-1" aria-labelledby="brochureModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
 
-        <div class="col-lg-2 col-md-4 col-6">
-          <!-- Footer Links Start -->
-          <div class="footer-links">
-            <h3>quick links</h3>
-            <ul>
-              <li><a href="#">About us</a></li>
-                      <li><a href="#">Products</a></li>
-              <li><a href="#">Articles</a></li>
-              <li><a href="#">Templates</a></li>
-              <li><a href="#">Webinars</a></li>
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="brochureModalLabel">Book A Free Demo </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
 
-              <li><a href="#">FAQs</a></li>
-            </ul>
-          </div>
-          <!-- Footer Links End -->
-        </div>
+                    <!-- Modal Body with Form -->
+                    <div class="modal-body">
+                        <div id="brochureForm">
+                            <div class="mb-3">
+                                <label for="nameInput" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="txtBDName" maxlength="100" placeholder="Enter your name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="emailInput" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="txtBDEmail" maxlength="150" placeholder="Enter your email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="phoneInput" class="form-label">Phone Number</label>
+                                <input type="tel" class="form-control numberonly" id="txtBDPhone" maxlength="15" placeholder="Enter your phone number">
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-lg-6">
+                                    <div class="mb-3 ">
+                                        <label for="orgNameInput" class="form-label">Organization Name</label>
+                                        <input type="text" class="form-control" id="txtBDOrg" placeholder="Enter your organization name" maxlength="150">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="mb-3">
+                                        <label for="countryInput" class="form-label">Country</label>
+                                        <input type="text" class="form-control" id="txtBDCountry" maxlength="100" placeholder="Enter your country">
+                                    </div>
+                                </div>
+                            </div>
 
-        <div class="col-lg-2 col-md-4 col-6">
-          <!-- Footer Links Start -->
-          <div class="footer-links">
-            <h3>Services</h3>
-            <ul>
-              <li><a href="#">QMS Services</a></li>
-              <li><a href="#">Regulatory</a></li>
-              <li><a href="#">Clinical</a></li>
-              <li><a href="#">disclaimer</a></li>
-            </ul>
-          </div>
-          <!-- Footer Links End -->
-        </div>
 
-        <div class="col-lg-3 col-md-4">
-          <!-- Footer Contact Box Start -->
-          <div class="footer-contact-box footer-links">
-            <h3>contact us</h3>
+                            <div>
+                                <a href="javascript:void(0);" class="btn-default btn-highlighted" id="btnBookADemo">Submit Now <i class="fa-solid fa-arrow-right ms-2"></i></a>
+                            </div>
+                        </div>
+                    </div>
 
-            <!-- Footer Contact Item Start -->
-            <div class="footer-contact-item">
-              <div class="icon-box">
-                <img src="images/icon-mail-white.svg" alt="" />
-              </div>
-              <div class="footer-contact-content">
-                <p><a href="#">info@easyqsolutions.com</a></p>
-              </div>
-            </div>
-            <!-- Footer Contact Item End -->
 
-            <!-- Footer Contact Item Start -->
-            <div class="footer-contact-item">
-              <div class="icon-box">
-                <img src="images/icon-phone.svg" alt="" />
-              </div>
-              <div class="footer-contact-content">
-                <p><a href="tel:911234567890">+91 12345 67890</a></p>
-              </div>
-            </div>
-            <!-- Footer Contact Item End -->
-          </div>
-          <!-- Footer Contact Box End -->
-        </div>
-      </div>
 
-      <!-- Footer Copyright Section Start -->
-      <div class="footer-copyright">
-        <div class="row align-items-center">
-          <div class="col-md-5">
-            <!-- Footer Copyright Start -->
-            <div class="footer-copyright-text">
-              <p>Copyright © 2025 All Rights Reserved.</p>
-            </div>
-            <!-- Footer Copyright End -->
-          </div>
-
-          <div class="col-md-7">
-            <!-- Footer Menu Start -->
-            <div class="footer-menu">
-              <ul>
-                <li><a href="#">privacy policy</a></li>
-                <li><a href="#">terms & conditions</a></li>
-              </ul>
-            </div>
-            <!-- Footer Menu End -->
-          </div>
-        </div>
-      </div>
-      <!-- Footer Copyright Section End -->
-    </div>
-  </footer>
-
-            <div class="modal fade" id="enquireform" tabindex="-1" aria-labelledby="brochureModalLabel" aria-hidden="true">
-       <div class="modal-dialog modal-dialog-centered">
-           <div class="modal-content">
-
-               <!-- Modal Header -->
-               <div class="modal-header">
-                   <h5 class="modal-title" id="brochureModalLabel">Book A Free Demo </h5>
-                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-               </div>
-
-               <!-- Modal Body with Form -->
-               <div class="modal-body">
-    <div id="brochureForm">
-        <div class="mb-3">
-            <label for="nameInput" class="form-label">Name</label>
-            <input type="text" class="form-control" id="nameInput" placeholder="Enter your name" required>
-        </div>
-        <div class="mb-3">
-            <label for="emailInput" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="emailInput" placeholder="Enter your email" required>
-        </div>
-        <div class="mb-3">
-            <label for="phoneInput" class="form-label">Phone Number</label>
-            <input type="tel" class="form-control" id="phoneInput" placeholder="Enter your phone number" required>
-        </div>
-        <div class="row mb-3">
-            <div class="col-lg-6">
-                <div class="mb-3 ">
-    <label for="orgNameInput" class="form-label">Organization Name</label>
-    <input type="text" class="form-control" id="orgNameInput" placeholder="Enter your organization name" required>
-</div>
-            </div>
-            <div class="col-lg-6">
-                <div class="mb-3">
-    <label for="countryInput" class="form-label">Country</label>
-    <input type="text" class="form-control" id="countryInput" placeholder="Enter your country" required>
-</div>
+                </div>
             </div>
         </div>
-        
-        
-        <div>
-            <a href="#" class="btn-default btn-highlighted">Submit Now <i class="fa-solid fa-arrow-right ms-2"></i></a>
-        </div>
-    </div>
-</div>
+        <!-- Footer End -->
 
-
-
-           </div>
-       </div>
-   </div>
-  <div class="whasapp-btn">
-    <a href="" target="_blank" contenteditable="false" style="cursor: pointer;">
-      <img src="./imgs/whatsapp.png" alt="" srcset=""></a>
-  </div>
-  <!-- Footer End -->
-
-  <!-- Jquery Library File -->
-  <script src=" js/jquery-3.7.1.min.js"></script>
-  <!-- Bootstrap js file -->
-  <script src="js/bootstrap.min.js"></script>
-  <!-- Validator js file -->
-  <script src="js/validator.min.js"></script>
-  <!-- SlickNav js file -->
-  <script src="js/jquery.slicknav.js"></script>
-  <!-- Swiper js file -->
-  <script src="js/swiper-bundle.min.js"></script>
-  <!-- Counter js file -->
-  <script src="js/jquery.waypoints.min.js"></script>
-  <script src="js/jquery.counterup.min.js"></script>
-  <!-- Isotop js file -->
-  <script src="js/isotope.min.js"></script>
-  <!-- Magnific js file -->
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <!-- SmoothScroll -->
-  <script src="js/SmoothScroll.js"></script>
-  <!-- Parallax js -->
-  <script src="js/parallaxie.js"></script>
-  <!-- MagicCursor js file -->
-  <script src="js/gsap.min.js"></script>
-  <!-- <script src="js/magiccursor.js"></script> -->
-  <!-- Text Effect js file -->
-  <script src="js/SplitText.js"></script>
-  <script src="js/ScrollTrigger.min.js"></script>
-  <!-- YTPlayer js File -->
-  <script src="js/jquery.mb.YTPlayer.min.js"></script>
-  <!-- Wow js file -->
-  <script src="js/wow.min.js"></script>
-  <!-- Main Custom js file -->
-  <script src="js/function.js"></script>
-
+        <!-- Jquery Library File -->
+        <script src=" js/jquery-3.7.1.min.js"></script>
+        <!-- Bootstrap js file -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- Validator js file -->
+        <script src="js/validator.min.js"></script>
+        <!-- SlickNav js file -->
+        <script src="js/jquery.slicknav.js"></script>
+        <!-- Swiper js file -->
+        <script src="js/swiper-bundle.min.js"></script>
+        <!-- Counter js file -->
+        <script src="js/jquery.waypoints.min.js"></script>
+        <script src="js/jquery.counterup.min.js"></script>
+        <!-- Isotop js file -->
+        <script src="js/isotope.min.js"></script>
+        <!-- Magnific js file -->
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <!-- SmoothScroll -->
+        <script src="js/SmoothScroll.js"></script>
+        <!-- Parallax js -->
+        <script src="js/parallaxie.js"></script>
+        <!-- MagicCursor js file -->
+        <script src="js/gsap.min.js"></script>
+        <!-- <script src="js/magiccursor.js"></script> -->
+        <!-- Text Effect js file -->
+        <script src="js/SplitText.js"></script>
+        <script src="js/ScrollTrigger.min.js"></script>
+        <!-- YTPlayer js File -->
+        <script src="js/jquery.mb.YTPlayer.min.js"></script>
+        <!-- Wow js file -->
+        <script src="js/wow.min.js"></script>
+        <!-- Main Custom js file -->
+        <script src="js/function.js"></script>
+        <script src="js/snackbar/snackbar.min.js"></script>
+        <script src="js/pages/book-a-demo-popup-handle.js"></script>
         <script>
-  const leftArrow = document.querySelector('.left-arrow');
-  const rightArrow = document.querySelector('.right-arrow');
-  const scrollContainer = document.querySelector('.our-feature-nav');
+            const leftArrow = document.querySelector('.left-arrow');
+            const rightArrow = document.querySelector('.right-arrow');
+            const scrollContainer = document.querySelector('.our-feature-nav');
 
-  leftArrow.addEventListener('click', () => {
-    scrollContainer.scrollBy({ left: -250, behavior: 'smooth' });
-  });
+            leftArrow.addEventListener('click', () => {
+                scrollContainer.scrollBy({ left: -250, behavior: 'smooth' });
+            });
 
-  rightArrow.addEventListener('click', () => {
-    scrollContainer.scrollBy({ left: 250, behavior: 'smooth' });
-  });
+            rightArrow.addEventListener('click', () => {
+                scrollContainer.scrollBy({ left: 250, behavior: 'smooth' });
+            });
         </script>
-         <script>
-             $(document).ready(function () {
-                 $('.numberonly').on('keydown', function (e) {
-                     // Allow: backspace, delete, tab, escape, enter, arrows
-                     if ($.inArray(e.keyCode, [8, 9, 27, 13, 37, 38, 39, 40, 46]) !== -1 ||
-                         // Allow Ctrl+A, Ctrl+C, Ctrl+V, Ctrl+X
-                         (e.ctrlKey === true && $.inArray(e.keyCode, [65, 67, 86, 88]) !== -1)) {
-                         return; // ✅ Allow these keys
-                     }
+        <script>
+            $(document).ready(function () {
+                $('.numberonly').on('keydown', function (e) {
+                    // Allow: backspace, delete, tab, escape, enter, arrows
+                    if ($.inArray(e.keyCode, [8, 9, 27, 13, 37, 38, 39, 40, 46]) !== -1 ||
+                        // Allow Ctrl+A, Ctrl+C, Ctrl+V, Ctrl+X
+                        (e.ctrlKey === true && $.inArray(e.keyCode, [65, 67, 86, 88]) !== -1)) {
+                        return; // ✅ Allow these keys
+                    }
 
-                     // Block non-numeric keys
-                     if ((e.shiftKey || (e.keyCode < 48 || e.keyCode > 57)) &&
-                         (e.keyCode < 96 || e.keyCode > 105)) {
-                         e.preventDefault(); // Block anything that's not a number
-                     }
-                 });
+                    // Block non-numeric keys
+                    if ((e.shiftKey || (e.keyCode < 48 || e.keyCode > 57)) &&
+                        (e.keyCode < 96 || e.keyCode > 105)) {
+                        e.preventDefault(); // Block anything that's not a number
+                    }
+                });
 
-                 // Disable paste and drop
-                 $('.numberonly').on('paste drop', function (e) {
-                     e.preventDefault();
-                 });
+                // Disable paste and drop
+                $('.numberonly').on('paste drop', function (e) {
+                    e.preventDefault();
+                });
 
-                 // Clean non-numeric input on change
-                 $('.numberonly').on('input', function () {
-                     $(this).val($(this).val().replace(/\D/g, ''));
-                 });
-             });
-         </script>
+                // Clean non-numeric input on change
+                $('.numberonly').on('input', function () {
+                    $(this).val($(this).val().replace(/\D/g, ''));
+                });
+            });
+        </script>
     </form>
 </body>
 </html>
