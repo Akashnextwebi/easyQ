@@ -391,8 +391,8 @@ It is a modern, <b>cloud-based QMS</b> that works from day one
         </div>
          <div class="col-lg-12">
              <div class="mt-5 counter-wrap1" data-wow-delay="0.4s">
-  <h5 class="mb-3 wow fadeInUp" data-wow-delay="0.4s">Results:</h5>
-  <div class="company-activity-list wow fadeInUp" data-wow-delay="0.4s">
+  <h5 class="mb-3 wow fadeInUp">Results:</h5>
+  <div class="company-activity-list wow fadeInUp" >
     <ul class="company-ul">
       <li>
         <span>Enhances operational <br />efficiency</span>
@@ -507,7 +507,7 @@ It is a modern, <b>cloud-based QMS</b> that works from day one
               <div class="company-success-content">
                 <!-- Section Tite Start -->
                 <div class="section-title">
-                  <h3 class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">Compliance assure
+                  <h3 class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">Compliance assured
 
                   </h3>
                   <h2 class="text-anime-style-2" data-cursor="-opaque">

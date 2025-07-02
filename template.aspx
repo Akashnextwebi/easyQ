@@ -20,11 +20,11 @@
                 <div class="col-lg-12">
                     <!-- Page Header Box Start -->
                     <div class="page-header-box text-start">
-                        <h1 class="text-anime-style-2 text-start">Template</h1>
+                        <h1 class="text-anime-style-2 text-start">Templates</h1>
                         <nav class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
                             <ul class="breadcrumb ">
                                 <li class="breadcrumb-item"><a href="#" class="text-white" contenteditable="false" style="cursor: pointer;">Home</a></li>
-                                <li class="breadcrumb-item active text-white" aria-current="page">Template</li>
+                                <li class="breadcrumb-item active text-white" aria-current="page">Templates</li>
                             </ul>
                         </nav>
                     </div>

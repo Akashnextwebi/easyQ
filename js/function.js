@@ -138,7 +138,7 @@
 
     if ($(".gallery-slider").length) {
         const testimonial_slider = new Swiper(".gallery-slider .swiper", {
-            slidesPerView: 4,
+            slidesPerView: 5,
             spaceBetween: 30,
             loop: true,
             speed: 3000,

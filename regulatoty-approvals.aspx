@@ -175,13 +175,13 @@ Whether it's FDA, EU MDR, CDSCO, and more other global regulatory authority, our
                                 consulting worldwide.
                             </p>
                             <div class="row justify-content-center certicicate-images">
-
                                 <div class="col wow fadeInUp">
-                                    <div class="col wow fadeInUp">
-                                        <div class="image">
-                                            <img src="imgs/certificates/3.webp" alt="" />
-                                        </div>
-                                    </div>
+    <div class="image">
+        <img src="imgs/certificates/3.webp" alt="" />
+    </div>
+</div>
+                                <div class="col wow fadeInUp">
+                                    
                                     <div class="image">
                                         <img src="imgs/certificates/1.webp" alt="" />
                                     </div>
@@ -434,7 +434,7 @@ Whether it's FDA, EU MDR, CDSCO, and more other global regulatory authority, our
                                                             <div class="col-12">
                                                                 <div class="counter-wrap ">
                                                                     <p class="fw-bold">
-                                                                        Knowledge of different product images
+                                                                        Knowledge of different product 
 
                                                                     </p>
                                                                 </div>
