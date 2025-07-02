@@ -86,7 +86,8 @@
               <!-- Additional required wrapper -->
               <div class="swiper-wrapper">
                 <!-- Slides -->
-                <div class="swiper-slide">
+                  <%=strClients %>
+               <%-- <div class="swiper-slide">
                   <div class="our-partner-item client-logo wow fadeInUp">
                     <img src="imgs/clients/client-1.png" alt="" />
                   </div>
@@ -125,7 +126,7 @@
                   <div class="our-partner-item client-logo wow fadeInUp" data-wow-delay="0.4s">
                     <img src="imgs/clients/SALCIT.jpg" alt="" />
                   </div>
-                </div>
+                </div>--%>
               </div>
               <!-- If we need pagination -->
               <div class="swiper-pagination"></div>
