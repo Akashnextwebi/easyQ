@@ -37,6 +37,7 @@
     <link rel="stylesheet" href="css/magnific-popup.css" />
     <!-- Main Custom Css -->
     <link href="css/custom.css" rel="stylesheet" media="screen" />
+    <link href="css/responsive.css" rel="stylesheet" media="screen" />
     <link href="css/easyq.css" rel="stylesheet" media="screen" />
     <link href="js/snackbar/snackbar.min.css" rel="stylesheet" />
     <asp:ContentPlaceHolder ID="head" runat="server">
@@ -60,7 +61,7 @@
                             <div class="nav-menu-wrapper">
                                 <ul class="navbar-nav mr-auto" id="menu">
                                     <li class="nav-item">
-                                        <a class="nav-link" href="default.aspx">Home</a>
+                                        <a class="nav-link" href="/">Home</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="about-us.aspx">About Us</a>
@@ -76,7 +77,7 @@
                                                 </a>
                                             </li>
                                             <li class="nav-item">
-                                                <a class="nav-link" href="./samd-and-ai-deviciess.aspx">SAMD & Ai Devices
+                                                <a class="nav-link" href="/samd-and-ai-deviciess.aspx">SAMD & Ai Devices
                                                 </a>
                                             </li>
                                             <li class="nav-item">
@@ -185,13 +186,13 @@
                         <div class="footer-links">
                             <h3>quick links</h3>
                             <ul>
-                                <li><a href="#">About us</a></li>
-                                <li><a href="#">Products</a></li>
-                                <li><a href="#">Articles</a></li>
-                                <li><a href="#">Templates</a></li>
-                                <li><a href="#">Webinars</a></li>
+                                <li><a href="/about-us.aspx">About us</a></li>
+                                <li><a href="/product.aspx">Products</a></li>
+                                <li><a href="/articles.aspx">Articles</a></li>
+                                <li><a href="/template.aspx">Templates</a></li>
+                                <li><a href="/webinars.aspx">Webinars</a></li>
 
-                                <li><a href="#">FAQs</a></li>
+                                <li><a href="/faq.aspx">FAQs</a></li>
                             </ul>
                         </div>
                         <!-- Footer Links End -->
@@ -202,10 +203,11 @@
                         <div class="footer-links">
                             <h3>Services</h3>
                             <ul>
-                                <li><a href="#">QMS Services</a></li>
-                                <li><a href="#">Regulatory</a></li>
-                                <li><a href="#">Clinical</a></li>
-                                <li><a href="#">disclaimer</a></li>
+                                <li><a href="/regulatoty-approvals.aspx">Regulatory Submissions</a></li>
+                                <li><a href="/samd-and-ai-deviciess.aspx">SAMD & Ai Devices</a></li>
+                                <li><a href="/qms.aspx">QMS</a></li>
+                                <li><a href="/clinical-evaluation.aspx">Clinical Regulatory</a></li>
+                                <li><a href="javascript:void(0);">Product Compliance </a></li>
                             </ul>
                         </div>
                         <!-- Footer Links End -->
@@ -318,9 +320,6 @@
                             </div>
                         </div>
                     </div>
-
-
-
                 </div>
             </div>
         </div>
