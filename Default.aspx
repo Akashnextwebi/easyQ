@@ -349,32 +349,10 @@ It is a modern, <b>cloud-based QMS</b> that works from day one
  Instead of spending weeks on chasing approvals, fixing document errors, or preparing for audits , your team can now work  smarter, faster and efficiently
   </p>
           
-<div class="mt-5">
-  <h5 class="mb-3 wow fadeInUp" data-wow-delay="0.4s">Results:</h5>
-  <div class="company-activity-list wow fadeInUp" data-wow-delay="0.4s">
-    <ul class="company-ul">
-      <li>
-        <b>Enhances operational <br />efficiency</b><br>
-        <small>50% - Reduction in time for QMS</small>
-      </li>
-      <li>
-        <b>Ensures compliance with full traceability</b><br>
-        <small>100% - Audit Ready</small>
-      </li>
-      <li>
-        <b>Accelerates time to market for innovation</b><br>
-        <small>60% - Reduction in operational cost & time</small>
-      </li>
-      <li>
-        <b>Lowers compliance<br /> costs</b><br>
-        <small>60% - Reduction in set up efforts</small>
-      </li>
-    </ul>
-  </div>
-</div>
 
 
-                <div class="company-activity-btn wow fadeInUp" data-wow-delay="0.6s">
+
+                <div class="company-activity-btn wow fadeInUp mt-4" data-wow-delay="0.6s">
                   <a href="#" class="btn-default">read more</a>
                 </div>
               </div>
@@ -411,6 +389,31 @@ It is a modern, <b>cloud-based QMS</b> that works from day one
             </div>
           </div>
         </div>
+         <div class="col-lg-12">
+             <div class="mt-5 counter-wrap1" data-wow-delay="0.4s">
+  <h5 class="mb-3 wow fadeInUp" data-wow-delay="0.4s">Results:</h5>
+  <div class="company-activity-list wow fadeInUp" data-wow-delay="0.4s">
+    <ul class="company-ul">
+      <li>
+        <span>Enhances operational <br />efficiency</span>
+        <small><span class="count">50%</span> - Reduction in time for QMS</small>
+      </li>
+      <li>
+        <span>Ensures compliance with full traceability</span>
+        <small><span class="count">100%</span> - Audit Ready</small>
+      </li>
+      <li>
+        <span>Accelerates time to market for innovation</span>
+        <small><span class="count">60%</span> - Reduction in operational cost & time</small>
+      </li>
+      <li>
+        <span>Lowers compliance<br /> costs</span>
+        <small><span class="count">60%</span> - Reduction in set up efforts</small>
+      </li>
+    </ul>
+  </div>
+</div>
+         </div>
       </div>
          
     </div>
@@ -1165,5 +1168,42 @@ It is a modern, <b>cloud-based QMS</b> that works from day one
 </div>
 <script src="js/jquery-3.6.0.min.js"></script>
 <script src="js/pages/default.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const counters = document.querySelectorAll('.count');
+            const speed = 20; // Lower = faster
+
+            const animate = (counter) => {
+                const target = +counter.innerText.replace('%', '');
+                let count = 0;
+
+                const update = () => {
+                    const increment = Math.ceil(target / speed);
+                    if (count < target) {
+                        count += increment;
+                        counter.innerText = (count > target ? target : count) + '%';
+                        setTimeout(update, 30);
+                    } else {
+                        counter.innerText = target + '%';
+                    }
+                };
+
+                update();
+            };
+
+            // Intersection Observer to trigger only when in view
+            const observer = new IntersectionObserver((entries, obs) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        animate(entry.target);
+                        obs.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.6 });
+
+            counters.forEach(counter => observer.observe(counter));
+        });
+    </script>
+
 </asp:Content>
 

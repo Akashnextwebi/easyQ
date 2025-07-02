@@ -1472,10 +1472,17 @@ header.main-header .header-sticky.active {
   padding-left: 25px;
   margin-bottom: 15px;
 }
+    .company-activity-list ul li span{
+        display:block;
+        font-size:20px;
+        font-weight:700;
+        margin-bottom:20px
+        
+    }
 
-.company-activity-list ul li:last-child {
-  margin-bottom: 0;
-}
+    .company-activity-list ul li:last-child {
+        margin-bottom: 0;
+    }
 
 .company-activity-list ul li::before {
   content: "\f058";
@@ -6776,7 +6783,7 @@ img.cta-image1 {
 
 .company-ul{
     display:grid;
-    grid-template-columns:repeat(2,1fr);
+    grid-template-columns:repeat(4,1fr);
     gap:1rem;
 }
 
@@ -6793,3 +6800,35 @@ img.cta-image1 {
         display:block;
 
     }
+
+.counter-wrap1 {
+    padding: 20px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+}
+.counter-wrap1 h5 {
+   font-size:24px;
+   margin-bottom:20px
+}
+
+    .counter-wrap1 .company-activity-list {
+        margin-bottom: 0px;
+    }
+
+.pagination{
+    display:flex;
+    gap:.5rem;
+}
+.active > .page-link, .page-link.active {
+    background: var(--primary-color) !important;
+    border:1px solid var(--primary-color);
+}
+.page-item .page-link{
+    height:40px;
+    width:40px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  border-radius:8px !important;
+}
