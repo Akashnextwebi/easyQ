@@ -576,7 +576,7 @@ Easy to use without complexicity.
                                 Get full access to our eQMS with a single, transparent pricing structure.
                             </p>
 
-                            <a href="#" class="readmore-btn" contenteditable="false" style="cursor: pointer;"> Request
+                            <a href="/contact-us.aspx" class="readmore-btn" contenteditable="false" style="cursor: pointer;"> Request
                                 Pricing Info
                             </a>
                         </div>
@@ -596,7 +596,7 @@ Easy to use without complexicity.
                                 Contact us to start your smart Compliance journey.
                             </p>
 
-                            <a href="#" class="readmore-btn" contenteditable="false" style="cursor: pointer;"> Contact
+                            <a href="/contact-us.aspx" class="readmore-btn" contenteditable="false" style="cursor: pointer;"> Contact
                                 US
                             </a>
                         </div>

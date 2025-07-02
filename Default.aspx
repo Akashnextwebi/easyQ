@@ -45,7 +45,7 @@
                         <!-- Hero Button Start -->
                         <div class="hero-btn">
                           <a href="javascript:void(0);" class="btn-default btn-highlighted" data-bs-toggle="modal" data-bs-target="#enquireform">Book Demo Now</a>
-                          <a href="#demo" class="btn-secondary ms-3">Explore Features</a>
+                          <a href="/product.aspx" class="btn-secondary ms-3">Explore Features</a>
 
                         </div>
                         <!-- Hero Button End -->
@@ -94,7 +94,7 @@
                         <!-- Hero Button Start -->
                         <div class="hero-btn">
                           <a href="javascript:void(0);" class="btn-default btn-highlighted" data-bs-toggle="modal" data-bs-target="#enquireform">Book Demo Now</a>
-                          <a href="#demo" class="btn-secondary ms-3">Explore Features</a>
+                          <a href="/product.aspx" class="btn-secondary ms-3">Explore Features</a>
                         </div>
                         <!-- Hero Button End -->
                       </div>
@@ -353,7 +353,7 @@ It is a modern, <b>cloud-based QMS</b> that works from day one
 
 
                 <div class="company-activity-btn wow fadeInUp mt-4" data-wow-delay="0.6s">
-                  <a href="#" class="btn-default">read more</a>
+                  <a href="/about-us.aspx" class="btn-default">read more</a>
                 </div>
               </div>
             </div>
@@ -969,7 +969,7 @@ It is a modern, <b>cloud-based QMS</b> that works from day one
 
             <!-- Faq Content Button Start -->
             <div class="faq-content-btn wow fadeInUp" data-wow-delay="0.4s">
-              <a href="#" class="btn-default">view all questions</a>
+              <a href="/faq.aspx" class="btn-default">view all questions</a>
             </div>
             <!-- Faq Content Button End -->
           </div>
@@ -1117,7 +1117,7 @@ It is a modern, <b>cloud-based QMS</b> that works from day one
             Book your demo today and experience smart eQMS designed around your MedTech business to be compliant
           </p>
           <div class="cta-buttons">
-            <a href="#" class="btn-secondary ">
+            <a href="/contact-us.aspx" class="btn-secondary ">
               Contact us
               <span class="arrow-icon ms-2"><i class="fa-solid fa-arrow-right"></i></span>
             </a>

@@ -179,9 +179,7 @@
                                 <!-- Company Activity List End -->
 
                                 <!-- Company Activity Button Start -->
-                                <div class="company-activity-btn wow fadeInUp" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
-                                    <a href="about.aspx" class="btn-default" contenteditable="false" style="cursor: pointer;">read more</a>
-                                </div>
+                              
                                 <!-- Company Activity Button End -->
                             </div>
                             <!-- Company Activity Content End -->
@@ -328,7 +326,7 @@
             <div class="row section-row align-items-center">
                 <div class="col-lg-12">
                     <!-- Section Tite Start -->
-                    <div class="section-title text-center">
+                    <div class="section-title text-center wow fadeInUp" data-wow-delay="0.4s" >
                         <!-- <h3 class="wow fadeInUp">How we work</h3> -->
                         <h2 class="">Why <span>Us?</span>
                         </h2>
@@ -340,7 +338,7 @@
 
             <div class="row">
                 <div class="col-lg-12">
-                    <img src="imgs/resource/whyus.png" class="img-fluid" />
+                    <img src="imgs/resource/whyus.png" class="img-fluid wow fadeInUp" data-wow-delay="0.4s" />
                 </div>
             </div>
         </div>

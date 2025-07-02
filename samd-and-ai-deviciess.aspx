@@ -41,7 +41,7 @@
                 <div class="hero-body wow fadeInUp" data-wow-delay="0.2s">
                   <!-- Hero Button Start -->
                   <div class="hero-btn">
-                    <a href="#" class="btn-default btn-highlighted">Contact Us</a>
+                    <a href="/contact-us.aspx" class="btn-default btn-highlighted">Contact Us</a>
                   </div>
                   <!-- Hero Button End -->
                 </div>
