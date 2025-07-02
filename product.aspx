@@ -292,7 +292,10 @@ easyQ eQMS ensures compliance at any point of time
       </div>
       <div class="process-step-content">
         <h3>Quick Implementation, Low Setup Effort</h3>
-        <p>Get your QMS in record time with ready-to-use modules. No long onboarding process or IT dependency. Easy to use without complexity.</p>
+        <p>Get your QMS in record time with ready to use modules.
+No long onboarding process or IT dependency.
+Easy to use without complexicity.
+</p>
       </div>
     </div>
   </div>
@@ -307,7 +310,8 @@ easyQ eQMS ensures compliance at any point of time
       </div>
       <div class="process-step-content">
         <h3>Always Audit Ready, No Last Minute Stress</h3>
-        <p>Be assured with real-time traceability, version control, and digital audit trails—no last-minute panic before inspections.</p>
+        <p>Be assured with real-time traceability, version control, and digital audit trails with no last minute panic before inspections.
+</p>
       </div>
     </div>
   </div>

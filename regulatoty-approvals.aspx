@@ -409,16 +409,38 @@ Whether it's FDA, EU MDR, CDSCO, and more other global regulatory authority, our
                                         <div class="easyq-counter mb-3">
                                             <div class="col-12 col-lg-12 mx-auto">
                                                 <div class="row">
-                                                    <div class="col-10">
-                                                        <div class="counter-wrap text-start d-flex align-items-center gap-4">
+                                                    <div class="col-4">
+                                                        <div class="counter-wrap ">
                                                             <h3><span class="counter">50</span>+</h3>
                                                             <p class="fw-bold">
-                                                                Combined E  xperience Knowledge<br /> of Global Regulatory
+                                                                Combined Experience 
 
                                                             </p>
                                                         </div>
                                                     </div>
+                                                    <div class="col-lg-8">
+                                                          <div class="row gy-3">
+                                                         <div class="col-12">
+                                                        <div class="counter-wrap ">
+                                                            <p class="fw-bold">
+                                                                Knowledge of Global Regulatory
 
+
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12">
+    <div class="counter-wrap ">
+        <p class="fw-bold">
+           Knowledge of different product images
+
+        </p>
+    </div>
+</div>  
+  </div>
+                                                    </div>
+                                                  
+                                                   
                                                 </div>
                                             </div>
                                         </div>
@@ -504,7 +526,7 @@ Whether it's FDA, EU MDR, CDSCO, and more other global regulatory authority, our
                                         <!-- Feature Tab Content List End -->
 
                                         <!-- Feature Tab Content Button Start -->
-                                     
+
                                         <!-- Feature Tab Content Button End -->
                                     </div>
                                     <!-- Feature Tab Content End -->
@@ -586,9 +608,8 @@ Whether it's FDA, EU MDR, CDSCO, and more other global regulatory authority, our
                     <div class="d-flex justify-content-between align-items-end">
                         <div class="section-title">
                             <h3 class="wow fadeInUp">testimonials</h3>
-                            <h2 class="text-anime-style-2">
-   Hear from our <span>Global Leaders</span>
- </h2>
+                            <h2 class="text-anime-style-2">Hear from our <span>Global Leaders</span>
+                            </h2>
                         </div>
                         <div class="testimonial-arrows">
                             <div class="slider-arrow swiper-button-prev">
