@@ -161,17 +161,17 @@
                 requirements and evolving regulatory guidelines, including algorithm transparency,
                 clinical evaluation, and cybersecurity considerations.
               </p>
-              <div class="row justify-content-center certicicate-images">
+              <div class="row justify-content-center certicicate-images"><div class="col wow fadeInUp">
+  <div class="image">
+    <img src="imgs/certificates/3.webp" alt="" />
+  </div>
+</div>
                 <div class="col wow fadeInUp">
                   <div class="image">
                     <img src="imgs/certificates/1.webp" alt="" />
                   </div>
                 </div>
-                <div class="col wow fadeInUp">
-                  <div class="image">
-                    <img src="imgs/certificates/3.webp" alt="" />
-                  </div>
-                </div>
+                
                 <div class="col wow fadeInUp">
                   <div class="image">
                     <img src="imgs/certificates/4.webp" alt="" />

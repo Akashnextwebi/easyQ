@@ -40,7 +40,14 @@
     <link href="css/responsive.css" rel="stylesheet" media="screen" />
     <link href="css/easyq.css" rel="stylesheet" media="screen" />
     <link href="js/snackbar/snackbar.min.css" rel="stylesheet" />
-
+    <style>
+        .post-item-content h2 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.4em;
+    min-height: 85px;
+}
+    </style>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>

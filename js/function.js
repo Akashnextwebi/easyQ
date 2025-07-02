@@ -136,23 +136,33 @@
     });
   }
 
-  if ($(".gallery-slider").length) {
-    const testimonial_slider = new Swiper(".gallery-slider .swiper", {
-      slidesPerView: 4,
-      spaceBetween: 30,
-      loop: true,
-      speed: 3000, // Longer speed for smooth transition
-      autoplay: {
-        delay: 0, // No delay between transitions
-        disableOnInteraction: false,
-      },
-      allowTouchMove: false, // Prevent manual swiping for smoother effect
-      navigation: {
-        nextEl: ".testimonial-arrows .swiper-button-next",
-        prevEl: ".testimonial-arrows .swiper-button-prev",
-      },
-    });
-  }
+    if ($(".gallery-slider").length) {
+        const testimonial_slider = new Swiper(".gallery-slider .swiper", {
+            slidesPerView: 4,
+            spaceBetween: 30,
+            loop: true,
+            speed: 3000,
+            autoplay: {
+                delay: 0,
+                disableOnInteraction: false,
+            },
+            allowTouchMove: false,
+            navigation: {
+                nextEl: ".testimonial-arrows .swiper-button-next",
+                prevEl: ".testimonial-arrows .swiper-button-prev",
+            },
+        });
+
+        // Pause autoplay on hover
+        $(".gallery-slider").on("mouseenter", function () {
+            testimonial_slider.autoplay.stop();
+        });
+
+        // Resume autoplay on mouse leave
+        $(".gallery-slider").on("mouseleave", function () {
+            testimonial_slider.autoplay.start();
+        });
+    }
 
   /* Skill Bar */
   if ($(".skills-progress-bar").length) {

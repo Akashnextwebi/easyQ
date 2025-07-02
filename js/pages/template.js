@@ -166,7 +166,7 @@ function BindAllTemplates() {
                 listings += "</div>";
                 listings += "<div class='project-content'>";
                 listings += "<h3><a href='javascript:void(0);' contenteditable='false' style='cursor: pointer;'>" + templates[i].Template + "</a></h3>";
-                listings += "<a href='javascript:void(0);' class='btn-default btn-highlighted mt-3 hidenId' data-id=" + templates[i].Id + " data-bs-toggle='modal' data-bs-target='#brochureModal'>Download <i class='fa-solid fa-download ms-2'></i></a>";
+                listings += "<a href='javascript:void(0);' class='btn-default btn-highlighted mt-3 hidenId' data-id=" + templates[i].Id + " data-bs-toggle='modal' data-bs-target='#brochureModal'>Download Template <i class='fa-solid fa-download ms-2'></i></a>";
                 listings += "</div>";
                 listings += "</div>";
                 listings += "</div>";
