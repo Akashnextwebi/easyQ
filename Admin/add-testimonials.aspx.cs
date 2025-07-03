@@ -80,7 +80,7 @@ public partial class Admin_add_testimonials : System.Web.UI.Page
                         int result = Testimonials.InsertTestimonials(conEQ, cs);
                         if (result > 0)
                         {
-                            txtName.Text = txtDetails.Text = txtDesignation.Text = ddlStar.Text = "";
+                            txtName.Text = txtDetails.Text = txtDesignation.Text = "";
                             GetAllTestimonials();
                             GetTestimonials();
                             ScriptManager.RegisterStartupScript(this, this.GetType(), "Message", "Snackbar.show({pos: 'top-right',text: 'Testimonials added successfully.',actionTextColor: '#fff',backgroundColor: '#008a3d'});", true);

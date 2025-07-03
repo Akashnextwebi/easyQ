@@ -123,7 +123,8 @@ public partial class Admin_manage_template : System.Web.UI.Page
                             int result = Templates.InsertTemplates(conEQ, cs);
                             if (result > 0)
                             {
-                                txtTemplate.Text = "";
+                                txtTemplate.Text = txtPostedOn.Text = "";
+                                chkFeatured.Checked = false;
                                 GetAllTemplates();
                                 GetTemplates();
                                 ScriptManager.RegisterStartupScript(this, this.GetType(), "Message", "Snackbar.show({pos: 'top-right',text: 'Template added successfully.',actionTextColor: '#fff',backgroundColor: '#008a3d'});", true);

@@ -124,7 +124,8 @@ public partial class Admin_manage_articles : System.Web.UI.Page
                             int result = Articles.InsertArticles(conEQ, cs);
                             if (result > 0)
                             {
-                                txtArticle.Text = "";
+                                txtArticle.Text =txtPostedOn.Text= "";
+                                chkFeatured.Checked = false;
                                 GetAllArticles();
                                 GetArticles();
                                 ScriptManager.RegisterStartupScript(this, this.GetType(), "Message", "Snackbar.show({pos: 'top-right',text: 'Article added successfully.',actionTextColor: '#fff',backgroundColor: '#008a3d'});", true);
