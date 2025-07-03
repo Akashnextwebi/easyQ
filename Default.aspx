@@ -1130,7 +1130,7 @@ It is a modern, <b>cloud-based QMS</b> that works from day one
             <!-- Modal Header -->
             <div class="modal-header">
                 <h5 class="modal-title" id="brochureModalLabel">Download Articles</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
             </div>
 
             <!-- Modal Body with Form -->
