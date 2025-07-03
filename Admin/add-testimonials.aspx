@@ -97,6 +97,7 @@
             </div>
         </div>
     </div>
+    <script src="assets/js/pages/add-testimonials.js"></script>
 </asp:Content>
 
 

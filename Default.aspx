@@ -692,7 +692,8 @@ It is a modern, <b>cloud-based QMS</b> that works from day one
           <div class="testimonial-slider">
             <div class="swiper">
               <div class="swiper-wrapper">
-                <!-- Testimonial Slide Start -->
+<%=strTestimonials %>
+              <%--  <!-- Testimonial Slide Start -->
                 <div class="swiper-slide">
                   <div class="testimonial-card">
                     <div class="star-rating">
@@ -740,7 +741,6 @@ It is a modern, <b>cloud-based QMS</b> that works from day one
                   </div>
                 </div>
                 <!-- Testimonial Slide End -->
-
                 <div class="swiper-slide">
                   <div class="testimonial-card">
                     <div class="star-rating">
@@ -765,8 +765,6 @@ It is a modern, <b>cloud-based QMS</b> that works from day one
                     </div>
                   </div>
                 </div>
-
-
                 <div class="swiper-slide">
                   <div class="testimonial-card">
                     <div class="star-rating">
@@ -791,10 +789,8 @@ It is a modern, <b>cloud-based QMS</b> that works from day one
                     </div>
                   </div>
                 </div>
-
                 <!-- Testimonial Slide Start -->
-
-                <!-- Testimonial Slide End -->
+                <!-- Testimonial Slide End -->--%>
               </div>
             </div>
           </div>
