@@ -226,13 +226,13 @@ public class Articles
 
         return result;
     }
-    public static decimal NoOfArticles(SqlConnection conSP)
+    public static decimal NoOfArticles(SqlConnection conEQ)
     {
         decimal x = 0;
         try
         {
             string query = " Select Count(Id) as cntA from Articles Where  Status != 'Deleted'";
-            SqlCommand cmd = new SqlCommand(query, conSP);
+            SqlCommand cmd = new SqlCommand(query, conEQ);
             SqlDataAdapter sda = new SqlDataAdapter(cmd);
             DataTable dt = new DataTable();
             sda.Fill(dt);

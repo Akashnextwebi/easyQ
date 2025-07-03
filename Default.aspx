@@ -695,7 +695,8 @@ It is a modern, <b>cloud-based QMS</b> that works from day one
           <div class="testimonial-slider">
             <div class="swiper">
               <div class="swiper-wrapper">
-                <!-- Testimonial Slide Start -->
+<%=strTestimonials %>
+              <%--  <!-- Testimonial Slide Start -->
                 <div class="swiper-slide">
                   <div class="testimonial-card">
                     <div class="star-rating">
@@ -743,7 +744,6 @@ It is a modern, <b>cloud-based QMS</b> that works from day one
                   </div>
                 </div>
                 <!-- Testimonial Slide End -->
-
                 <div class="swiper-slide">
                   <div class="testimonial-card">
                     <div class="star-rating">
@@ -768,8 +768,6 @@ It is a modern, <b>cloud-based QMS</b> that works from day one
                     </div>
                   </div>
                 </div>
-
-
                 <div class="swiper-slide">
                   <div class="testimonial-card">
                     <div class="star-rating">
@@ -794,10 +792,8 @@ It is a modern, <b>cloud-based QMS</b> that works from day one
                     </div>
                   </div>
                 </div>
-
                 <!-- Testimonial Slide Start -->
-
-                <!-- Testimonial Slide End -->
+                <!-- Testimonial Slide End -->--%>
               </div>
             </div>
           </div>
@@ -1137,7 +1133,7 @@ It is a modern, <b>cloud-based QMS</b> that works from day one
             <!-- Modal Header -->
             <div class="modal-header">
                 <h5 class="modal-title" id="brochureModalLabel">Download Articles</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
             </div>
 
             <!-- Modal Body with Form -->

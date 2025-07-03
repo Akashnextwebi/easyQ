@@ -708,7 +708,8 @@
           <div class="testimonial-slider">
             <div class="swiper">
               <div class="swiper-wrapper">
-                <!-- Testimonial Slide Start -->
+                  <%=strTestimonials %>
+               <%-- <!-- Testimonial Slide Start -->
                 <div class="swiper-slide">
                   <div class="testimonial-card">
                     <div class="star-rating">
@@ -801,7 +802,7 @@
 
                 <!-- Testimonial Slide Start -->
 
-                <!-- Testimonial Slide End -->
+                <!-- Testimonial Slide End -->--%>
               </div>
             </div>
           </div>

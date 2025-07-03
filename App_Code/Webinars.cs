@@ -192,13 +192,13 @@ public class Webinars
 
         return result;
     }
-    public static decimal NoOfWebinars(SqlConnection conSP)
+    public static decimal NoOfWebinars(SqlConnection conEQ)
     {
         decimal x = 0;
         try
         {
             string query = " Select Count(Id) as cntW from Webinars Where  Status != 'Deleted'";
-            SqlCommand cmd = new SqlCommand(query, conSP);
+            SqlCommand cmd = new SqlCommand(query, conEQ);
             SqlDataAdapter sda = new SqlDataAdapter(cmd);
             DataTable dt = new DataTable();
             sda.Fill(dt);

@@ -633,7 +633,8 @@ Whether it's FDA, EU MDR, CDSCO, and more other global regulatory authority, our
                     <div class="testimonial-slider">
                         <div class="swiper">
                             <div class="swiper-wrapper">
-                                <!-- Testimonial Slide Start -->
+                                <%=strTestimonials %>
+                                <%--<!-- Testimonial Slide Start -->
                                 <div class="swiper-slide">
                                     <div class="testimonial-card">
                                         <div class="star-rating">
@@ -736,7 +737,111 @@ Whether it's FDA, EU MDR, CDSCO, and more other global regulatory authority, our
 
                                 <!-- Testimonial Slide Start -->
 
+                                <!-- Testimonial Slide End -->--%>
+                                <%--<!-- Testimonial Slide Start -->
+                                <div class="swiper-slide">
+                                    <div class="testimonial-card">
+                                        <div class="star-rating">
+                                            <i class="fas fa-star star"></i>
+                                            <i class="fas fa-star star"></i>
+                                            <i class="fas fa-star star"></i>
+                                            <i class="fas fa-star star"></i>
+                                            <i class="fas fa-star star"></i>
+                                        </div>
+                                        <p class="testimonial-quote">
+                                            "Partnering with easyQ Solutions was a game-changer for our regulatory
+                                            compliance journey.
+                                            Their
+                                            team streamlined our entire QMS setup and made compliance effortless."
+                                        </p>
+                                        <div class="testimonial-author">
+                                            <div class="author-image">AM</div>
+                                            <div class="author-info">
+                                                <h5>Anjali Mehra</h5>
+                                                <p>Quality Manager, BioMedix Pvt. Ltd.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="testimonial-card">
+                                        <div class="star-rating">
+                                            <i class="fas fa-star star"></i>
+                                            <i class="fas fa-star star"></i>
+                                            <i class="fas fa-star star"></i>
+                                            <i class="fas fa-star star"></i>
+                                            <i class="fas fa-star star"></i>
+                                        </div>
+                                        <p class="testimonial-quote">
+                                            We were struggling with FDA 21 CFR Part 820
+                                            compliance, and easyQ Solutions stepped in with a
+                                            clear, actionable strategy.
+                                        </p>
+                                        <div class="testimonial-author">
+                                            <div class="author-image">RD</div>
+                                            <div class="author-info">
+                                                <h5>Rahul Deshpande</h5>
+                                                <p>Operations Head, NeuroTech Lab</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                                 <!-- Testimonial Slide End -->
+
+                                <div class="swiper-slide">
+                                    <div class="testimonial-card">
+                                        <div class="star-rating">
+                                            <i class="fas fa-star star"></i>
+                                            <i class="fas fa-star star"></i>
+                                            <i class="fas fa-star star"></i>
+                                            <i class="fas fa-star star"></i>
+                                            <i class="fas fa-star star"></i>
+                                        </div>
+                                        <p class="testimonial-quote">
+                                            easyQ Solutions made our transition to a digital QMS
+                                            effortless. From gap analysis to internal audits,
+                                            their hands-on guidance improved our operational
+                                            efficiency.
+                                        </p>
+                                        <div class="testimonial-author">
+                                            <div class="author-image">DN</div>
+                                            <div class="author-info">
+                                                <h5>Divya Nair</h5>
+                                                <p>CEO, MedSoft Systems</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="swiper-slide">
+                                    <div class="testimonial-card">
+                                        <div class="star-rating">
+                                            <i class="fas fa-star star"></i>
+                                            <i class="fas fa-star star"></i>
+                                            <i class="fas fa-star star"></i>
+                                            <i class="fas fa-star star"></i>
+                                            <i class="fas fa-star star"></i>
+                                        </div>
+                                        <p class="testimonial-quote">
+                                            easyQ Solutions made our ISO 13485 certification
+                                            process seamless. Their team's expertise and attention
+                                            to detail ensured we met all requirements swiftly and
+                                            efficiently.
+                                        </p>
+                                        <div class="testimonial-author">
+                                            <div class="author-image">AS</div>
+                                            <div class="author-info">
+                                                <h5>Amit Sharma</h5>
+                                                <p>Quality Lead, Medica Instruments</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Testimonial Slide Start -->
+
+                                <!-- Testimonial Slide End -->--%>
                             </div>
                         </div>
                     </div>
