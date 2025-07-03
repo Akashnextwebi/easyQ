@@ -14,7 +14,7 @@
             <div class="hero-slide">
               <!-- Slider Image Start -->
               <div class="hero-slider-image">
-                <img src="imgs/banner.png" alt="" />
+                <img src="imgs/HomePage/Hero-Section.png" alt="" />
               </div>
               <!-- Slider Image End -->
 
@@ -29,6 +29,9 @@
                         <h1 class="text-anime-style-2">
                         Smart Quality Management System for Medical Device Companies
                         </h1>
+                          <div class="pr-50">
+
+                       
                         <p class="wow fadeInUp">
                         QMS and Regulatory Compliance are crtical for Medtech companies but paper based systems often lead to inefficiency and non compliance.
 
@@ -36,7 +39,7 @@
                           <p>Switch to easyQ eQMS: a next-generation, cloud based quality management platform designed specifically for the medical device industry. 
 </p>
                           <p>A complete solution that helps you stay compliant, work faster, and grow your business with confidence.
-</p>
+</p>   </div>
                       </div>
                       <!-- Section Title End -->
 
@@ -327,7 +330,7 @@ It is a modern, <b>cloud-based QMS</b> that works from day one
             <div class="company-activity-item">
               <div class="company-activity-image">
                 <figure>
-                  <img src="./imgs/about-2.png" alt="" />
+                  <img src="imgs/HomePage/Measurable-Outcomes.png" alt="" />
                 </figure>
               </div>
               <div class="company-activity-content">

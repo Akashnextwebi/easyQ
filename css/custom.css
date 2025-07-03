@@ -55,9 +55,11 @@ h6 {
 figure {
   margin: 0;
 }
-
+.pr-50{
+    padding-right:50px;
+}
 img {
-  max-width: 100%;
+    max-width: 100%;
 }
 
 a {
