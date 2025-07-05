@@ -70,7 +70,7 @@
                             <h4 class="card-title mb-0 flex-grow-1">Manage FAQs</h4>
                         </div>
                         <div class="card-body">
-                            <table id="alternative-pagination" class="table nowrap dt-responsive align-middle table-striped table-bordered myTable" style="width: 100%;">
+                            <table id="alternative-pagination" class="table dt-responsive align-middle table-striped table-bordered myTable" style="width: 100%;">
                                 <thead>
                                     <tr>
                                         <th>#</th>
