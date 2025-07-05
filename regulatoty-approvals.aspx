@@ -5,6 +5,12 @@
         .our-feature-nav {
             width: 100%;
         }
+        .feature-tab-img img {
+    width: 100%;
+    aspect-ratio: 1 / 0.873;
+    object-fit: cover;
+    border-radius: 8px;
+}
     </style>
 
 </asp:Content>
@@ -17,7 +23,7 @@
             <div class="hero-slide">
                 <!-- Slider Image Start -->
                 <div class="hero-slider-image">
-                    <img src="imgs/ban2.png" alt="" />
+                    <img src="imgs/Services/r.webp" alt="" />
                 </div>
                 <!-- Slider Image End -->
                 <div class="hero-overlay"></div>
@@ -96,12 +102,12 @@ Whether it's FDA, EU MDR, CDSCO, and more other global regulatory authority, our
                                 <!-- Slides -->
                                 <%--<div class="swiper-slide">
                                     <div class="our-partner-item client-logo wow fadeInUp">
-                                        <img src="imgs/clients/client-1.png" alt="" />
+                                        <img src="imgs/clients/client-1.webp" alt="" />
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="our-partner-item client-logo wow fadeInUp" data-wow-delay="0.2s">
-                                        <img src="imgs/clients/client-2.png" alt="" />
+                                        <img src="imgs/clients/client-2.webp" alt="" />
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
@@ -111,22 +117,22 @@ Whether it's FDA, EU MDR, CDSCO, and more other global regulatory authority, our
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="our-partner-item client-logo wow fadeInUp" data-wow-delay="0.4s">
-                                        <img src="imgs/clients/client-4.png" alt="" />
+                                        <img src="imgs/clients/client-4.webp" alt="" />
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="our-partner-item client-logo wow fadeInUp" data-wow-delay="0.4s">
-                                        <img src="imgs/clients/client-5.png" alt="" />
+                                        <img src="imgs/clients/client-5.webp" alt="" />
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="our-partner-item client-logo wow fadeInUp" data-wow-delay="0.4s">
-                                        <img src="imgs/clients/client-6.png" alt="" />
+                                        <img src="imgs/clients/client-6.webp" alt="" />
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="our-partner-item client-logo wow fadeInUp" data-wow-delay="0.4s">
-                                        <img src="imgs/clients/client-7.png" alt="" />
+                                        <img src="imgs/clients/client-7.webp" alt="" />
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
@@ -351,14 +357,14 @@ Whether it's FDA, EU MDR, CDSCO, and more other global regulatory authority, our
                                 <li class="nav-item" role="presentation">
                                     <button class="nav-link active" id="documents-tab" data-bs-toggle="tab"
                                         data-bs-target="#documents" type="button" role="tab" aria-selected="true">
-                                        <img src="./imgs/icons/w1.png" alt="">Our Expert Team
+                                        <img src="./imgs/icons/w1.webp" alt="">Our Expert Team
 
                                     </button>
                                 </li>
                                 <li class="nav-item" role="presentation">
                                     <button class="nav-link" id="event-tab" data-bs-toggle="tab" data-bs-target="#event"
                                         type="button" role="tab" aria-selected="false" tabindex="-1">
-                                        <img src="./imgs/icons/w2.png" alt="">Proven Success
+                                        <img src="./imgs/icons/w2.webp" alt="">Proven Success
 
                                     </button>
                                 </li>
@@ -366,7 +372,7 @@ Whether it's FDA, EU MDR, CDSCO, and more other global regulatory authority, our
                                     <button class="nav-link" id="meetings-tab" data-bs-toggle="tab"
                                         data-bs-target="#meetings" type="button" role="tab" aria-selected="false"
                                         tabindex="-1">
-                                        <img src="./imgs/icons/w3.png" alt="">Integrity in Process
+                                        <img src="./imgs/icons/w3.webp" alt="">Integrity in Process
 
                                     </button>
                                 </li> -->
@@ -385,7 +391,7 @@ Whether it's FDA, EU MDR, CDSCO, and more other global regulatory authority, our
                                         <!-- Feature Tab Content Header Start -->
                                         <div class="feature-tab-content-header">
                                             <div class="icon-box">
-                                                <img src="./imgs/icons/w1.png" alt="">
+                                                <img src="./imgs/icons/w1.webp" alt="">
                                             </div>
                                             <div class="feature-tab-header-content">
                                                 <h3>Our Expert Team
@@ -410,8 +416,8 @@ Whether it's FDA, EU MDR, CDSCO, and more other global regulatory authority, our
                                         <!-- Feature Tab Content List Start -->
                                         <div class="easyq-counter mb-3">
                                             <div class="col-12 col-lg-12 mx-auto">
-                                                <div class="row">
-                                                    <div class="col-4">
+                                                <div class="row gy-4">
+                                                    <div class="col-12 col-lg-4">
                                                         <div class="counter-wrap ">
                                                             <h3><span class="counter">50</span>+</h3>
                                                             <p class="fw-bold">
@@ -459,7 +465,7 @@ Whether it's FDA, EU MDR, CDSCO, and more other global regulatory authority, our
                                     <!-- Feature Tab Image Start -->
                                     <div class="feature-tab-img">
                                         <figure>
-                                            <img src="./imgs/icons/ww1.png" alt="">
+                                            <img src="./imgs/icons/ww1.webp" alt="">
                                         </figure>
                                     </div>
                                     <!-- Feature Tab Image End -->
@@ -478,7 +484,7 @@ Whether it's FDA, EU MDR, CDSCO, and more other global regulatory authority, our
                                         <!-- Feature Tab Content Header Start -->
                                         <div class="feature-tab-content-header">
                                             <div class="icon-box">
-                                                <img src="./imgs/icons/w2.png" alt="">
+                                                <img src="./imgs/icons/w2.webp" alt="">
                                             </div>
                                             <div class="feature-tab-header-content">
                                                 <h3>Proven Success
@@ -496,20 +502,20 @@ Whether it's FDA, EU MDR, CDSCO, and more other global regulatory authority, our
                                         </div>
                                         <div class="easyq-counter mb-4">
                                             <div class="col-12 col-lg-12 mx-auto">
-                                                <div class="row">
-                                                    <div class="col-4">
+                                                <div class="row gy-4">
+                                                    <div class="col-6 col-lg-4">
                                                         <div class="counter-wrap">
                                                             <h3><span class="counter">100</span>+</h3>
                                                             <p>projects Delivered</p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-4">
+                                                    <div class="col-6 col-lg-4">
                                                         <div class="counter-wrap">
                                                             <h3><span class="counter">150</span>+</h3>
                                                             <p>Clients Globally</p>
                                                         </div>
                                                     </div>
-                                                    <div class="col-4">
+                                                    <div class="col-6 col-lg-4">
                                                         <div class="counter-wrap">
                                                             <h3><span class="counter">100</span>%</h3>
                                                             <p>
@@ -538,7 +544,7 @@ Whether it's FDA, EU MDR, CDSCO, and more other global regulatory authority, our
                                     <!-- Feature Tab Image Start -->
                                     <div class="feature-tab-img">
                                         <figure>
-                                            <img src="./imgs/icons/ww2.png" alt="">
+                                            <img src="./imgs/icons/ww2.webp" alt="">
                                         </figure>
                                     </div>
                                     <!-- Feature Tab Image End -->
@@ -559,7 +565,7 @@ Whether it's FDA, EU MDR, CDSCO, and more other global regulatory authority, our
                                         <!-- Feature Tab Content Header Start -->
                                         <div class="feature-tab-content-header">
                                             <div class="icon-box">
-                                                <img src="./imgs/icons/w4.png" alt="">
+                                                <img src="./imgs/icons/w4.webp" alt="">
                                             </div>
 
                                         </div>
@@ -583,7 +589,7 @@ Whether it's FDA, EU MDR, CDSCO, and more other global regulatory authority, our
                                     <!-- Feature Tab Image Start -->
                                     <div class="feature-tab-img">
                                         <figure>
-                                            <img src="./imgs/icons/ww4.png" alt="">
+                                            <img src="./imgs/icons/ww4.webp" alt="">
                                         </figure>
                                     </div>
                                     <!-- Feature Tab Image End -->

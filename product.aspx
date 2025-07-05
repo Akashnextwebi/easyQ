@@ -1,40 +1,41 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="./MasterPage.master" AutoEventWireup="true" CodeFile="product.aspx.cs" Inherits="product" %>
 
-<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
 
     <style>
-
-        .company-success-content ul li{
-            color:#000;
+        .company-success-content ul li {
+            color: #000;
         }
-        .company-success-content ul {
-   margin-top:30px;
-}
-      .company-success-content ul li::before{
-          top:12px;
-          color:#000;   
-      }
 
-      .hero-card .btn-secondary {
-    background-color: white;
-    color: var(--secondary-color);
-    border: 2px solid var(--secondary-color);
-    padding: 12px 24px;
-    border-radius: 8px;
-    box-shadow: 0 0 4px var(--secondary-color);
-    font-size: 1rem;
-    font-weight: 600;
-    text-decoration: none;
-    display: inline-block;
-    transition: all 0.3s ease;
-    cursor: pointer;
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(6px);
-}
+        .company-success-content ul {
+            margin-top: 30px;
+        }
+
+            .company-success-content ul li::before {
+                top: 12px;
+                color: #000;
+            }
+
+        .hero-card .btn-secondary {
+            background-color: white;
+            color: var(--secondary-color);
+            border: 2px solid var(--secondary-color);
+            padding: 12px 24px;
+            border-radius: 8px;
+            box-shadow: 0 0 4px var(--secondary-color);
+            font-size: 1rem;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(6px);
+        }
     </style>
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-     <!-- Hero Section Start -->
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+    <!-- Hero Section Start -->
     <div class="product-hero-section">
         <div class="container">
             <div class="row justify-content-center align-items-center">
@@ -44,8 +45,7 @@
                         <!-- Section Title Start -->
                         <div class="section-title text-center dark-section">
 
-                            <h1 class="text-anime-style-2 wow fadeInUp" data-wow-delay="0.4s">
-                              Smart, Intuitive, Compliant, QMS Software to Meet Your Regulatory Requirements
+                            <h1 class="text-anime-style-2 wow fadeInUp" data-wow-delay="0.4s">Smart, Intuitive, Compliant, QMS Software to Meet Your Regulatory Requirements
                             </h1>
                         </div>
                         <!-- Section Title End -->
@@ -63,9 +63,10 @@
 
                         <div class="hero-image wow fadeInUp" data-wow-delay="0.8s">
                             <div class="blur-element">
-
-                            </div> <img src="./imgs/product.png" alt="Hero Image" class="img-fluid" />
-                        </div> <!-- Hero Body End -->
+                            </div>
+                            <img src="./imgs/product.webp" alt="Hero Image" class="img-fluid" />
+                        </div>
+                        <!-- Hero Body End -->
                     </div>
                     <!-- Hero Content End -->
                 </div>
@@ -90,18 +91,19 @@
                 <div class="col-lg-12">
 
                     <div class="gallery-slider">
-                        <div class="swiper"> <!-- Additional required wrapper -->
+                        <div class="swiper">
+                            <!-- Additional required wrapper -->
                             <div class="swiper-wrapper">
                                 <!-- Slides -->
                                 <%=strClients %>
-                               <%-- <div class="swiper-slide">
+                                <%-- <div class="swiper-slide">
                                     <div class="our-partner-item client-logo wow fadeInUp">
-                                        <img src="imgs/clients/client-1.png" alt="" />
+                                        <img src="imgs/clients/client-1.webp" alt="" />
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="our-partner-item client-logo wow fadeInUp" data-wow-delay="0.2s">
-                                        <img src="imgs/clients/client-2.png" alt="" />
+                                        <img src="imgs/clients/client-2.webp" alt="" />
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
@@ -111,22 +113,22 @@
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="our-partner-item client-logo wow fadeInUp" data-wow-delay="0.4s">
-                                        <img src="imgs/clients/client-4.png" alt="" />
+                                        <img src="imgs/clients/client-4.webp" alt="" />
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="our-partner-item client-logo wow fadeInUp" data-wow-delay="0.4s">
-                                        <img src="imgs/clients/client-5.png" alt="" />
+                                        <img src="imgs/clients/client-5.webp" alt="" />
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="our-partner-item client-logo wow fadeInUp" data-wow-delay="0.4s">
-                                        <img src="imgs/clients/client-6.png" alt="" />
+                                        <img src="imgs/clients/client-6.webp" alt="" />
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="our-partner-item client-logo wow fadeInUp" data-wow-delay="0.4s">
-                                        <img src="imgs/clients/client-7.png" alt="" />
+                                        <img src="imgs/clients/client-7.webp" alt="" />
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
@@ -165,24 +167,20 @@
                                 <div class="section-title mb-30">
                                     <h3 class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">Your
                                         success, our commitment</h3>
-                                    <h2 class="text-anime-style-2" data-cursor="-opaque">
-                                        Why Implement <span>eQMS ? </span></h2>
-                                    <P>
+                                    <h2 class="text-anime-style-2" data-cursor="-opaque">Why Implement <span>eQMS ? </span></h2>
+                                    <p>
                                         <strong>It is necessary for any organization dedicated to provide safe, compliant, and high quality products particularly in highly regulated sectors such as MedTech industry.
 easyQ eQMS ensures compliance at any point of time
                                         </strong>
-                                    </P>
-<ul>
-  <li>
-    In-built compliance for <b>ISO 13485, FDA 21 CFR Part 820, EU MDR, CDSCO and more</b>, an <b>eQMS</b> eliminates the risk of non-compliance by automating critical quality processes like <b>CAPA, Document Control, Risk Management</b>, and audit trails.
-  </li>
-  <li>
-    Substitutes manual spreadsheets with a cloud-based centralized system that provides real-time version control, effortless collaboration, and instant audit readiness.
-  </li>
-  <li>
-    Whether gearing up for an inspection, scaling across sites, or expanding into global markets, an eQMS increases operational efficiency, maintains data integrity, and enables continuous improvement—making it the smart choice for every MedTech company looking to scale faster and smarter.
-  </li>
-</ul>
+                                    </p>
+                                    <ul>
+                                        <li>In-built compliance for <b>ISO 13485, FDA 21 CFR Part 820, EU MDR, CDSCO and more</b>, an <b>eQMS</b> eliminates the risk of non-compliance by automating critical quality processes like <b>CAPA, Document Control, Risk Management</b>, and audit trails.
+                                        </li>
+                                        <li>Substitutes manual spreadsheets with a cloud-based centralized system that provides real-time version control, effortless collaboration, and instant audit readiness.
+                                        </li>
+                                        <li>Whether gearing up for an inspection, scaling across sites, or expanding into global markets, an eQMS increases operational efficiency, maintains data integrity, and enables continuous improvement—making it the smart choice for every MedTech company looking to scale faster and smarter.
+                                        </li>
+                                    </ul>
 
                                 </div>
                                 <a href="javascript:void(0);" class="btn-default btn-highlighted wow fadeInUp" data-wow-delay="0.4s" data-bs-toggle="modal" data-bs-target="#enquireform">Book
@@ -264,9 +262,8 @@ easyQ eQMS ensures compliance at any point of time
                     <!-- Section Tite Start -->
                     <div class="section-title">
 
-                        <h2 class="text-anime-style-2 text-center ">
-                            Why Implement Our <span>eQMS ?</span> </h2>
-                   
+                        <h2 class="text-anime-style-2 text-center ">Why Implement Our <span>eQMS ?</span> </h2>
+
                     </div>
                     <!-- Section Tite End -->
                 </div>
@@ -276,77 +273,76 @@ easyQ eQMS ensures compliance at any point of time
 
 
             <!-- Process Steps List Start -->
-          <div class="row gy-4 wow fadeInUp" data-wow-delay="0.4s">
-<!-- First Row: Top 3 Cards -->
-<div class="row gy-4 mb-5 wow fadeInUp" data-wow-delay="0.4s">
-  <div class="col-lg-4">
-    <div class="process-step-box why-card">
-      <div class="icon-box">
-        <img src="./imgs/icons/global-navigation.png">
-      </div>
-      <div class="process-step-content">
-        <h3>Supports Global Compliance from Day One</h3>
-        <p>Workflows compliant to <b>ISO 13485, CDSCO, US FDA 21 CFR Part 820</b> and <b>EU MDR</b></p>
-      </div>
-    </div>
-  </div>
+            <!-- First Row: Top 3 Cards -->
+            <div class="row justify-content-center gy-4 mb-5 wow fadeInUp" data-wow-delay="0.4s">
+                <div class="col-lg-4 col-md-6">
+                    <div class="process-step-box why-card">
+                        <div class="icon-box">
+                            <img src="./imgs/icons/global-navigation.webp">
+                        </div>
+                        <div class="process-step-content">
+                            <h3>Supports Global Compliance from Day One</h3>
+                            <p>Workflows compliant to <b>ISO 13485, CDSCO, US FDA 21 CFR Part 820</b> and <b>EU MDR</b></p>
+                        </div>
+                    </div>
+                </div>
 
-  <div class="col-lg-4">
-    <div class="process-step-box why-card">
-      <div class="icon-box">
-        <img src="./imgs/icons/growth.png">
-      </div>
-      <div class="process-step-content">
-        <h3>50% Faster Compliance, Accelerated Market Entry</h3>
-        <p>Reduces the operational burden so your team can focus on product development, market entry, and scaling—not paperwork.</p>
-      </div>
-    </div>
-  </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="process-step-box why-card">
+                        <div class="icon-box">
+                            <img src="./imgs/icons/growth.webp">
+                        </div>
+                        <div class="process-step-content">
+                            <h3>50% Faster Compliance, Accelerated Market Entry</h3>
+                            <p>Reduces the operational burden so your team can focus on product development, market entry, and scaling—not paperwork.</p>
+                        </div>
+                    </div>
+                </div>
 
-  <div class="col-lg-4">
-    <div class="process-step-box why-card">
-      <div class="icon-box">
-        <img src="./imgs/icons/implementation.png">
-      </div>
-      <div class="process-step-content">
-        <h3>Quick Implementation, Low Setup Effort</h3>
-        <p>Get your QMS in record time with ready to use modules.
+                <div class="col-lg-4 col-md-6">
+                    <div class="process-step-box why-card">
+                        <div class="icon-box">
+                            <img src="./imgs/icons/implementation.webp">
+                        </div>
+                        <div class="process-step-content">
+                            <h3>Quick Implementation, Low Setup Effort</h3>
+                            <p>
+                                Get your QMS in record time with ready to use modules.
 No long onboarding process or IT dependency.
 Easy to use without complexicity.
-</p>
-      </div>
-    </div>
-  </div>
-</div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
 
-<!-- Second Row: Centered 2 Cards with same bottom spacing -->
-<div class="row justify-content-center wow fadeInUp" data-wow-delay="0.5s">
-  <div class="col-lg-4">
-    <div class="process-step-box why-card">
-      <div class="icon-box">
-        <img src="./imgs/icons/audit.png">
-      </div>
-      <div class="process-step-content">
-        <h3>Always Audit Ready, No Last Minute Stress</h3>
-        <p>Be assured with real-time traceability, version control, and digital audit trails with no last minute panic before inspections.
-</p>
-      </div>
-    </div>
-  </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="process-step-box why-card">
+                        <div class="icon-box">
+                            <img src="./imgs/icons/audit.webp">
+                        </div>
+                        <div class="process-step-content">
+                            <h3>Always Audit Ready, No Last Minute Stress</h3>
+                            <p>
+                                Be assured with real-time traceability, version control, and digital audit trails with no last minute panic before inspections.
+                            </p>
+                        </div>
+                    </div>
+                </div>
 
-  <div class="col-lg-4">
-    <div class="process-step-box why-card">
-      <div class="icon-box">
-        <img src="./imgs/icons/data-security.png">
-      </div>
-      <div class="process-step-content">
-        <h3>Data Security</h3>
-        <p>Your data is secured with our 21 CFR Part 11 compliant solution to ensure confidentiality and accessibility.</p>
-      </div>
-    </div>
-  </div>
-</div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="process-step-box why-card">
+                        <div class="icon-box">
+                            <img src="./imgs/icons/data-security.webp">
+                        </div>
+                        <div class="process-step-content">
+                            <h3>Data Security</h3>
+                            <p>Your data is secured with our 21 CFR Part 11 compliant solution to ensure confidentiality and accessibility.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+        </div>
     </div>
     <div class="process-module ">
         <div class="container">
@@ -354,14 +350,16 @@ Easy to use without complexicity.
                 <div class="col-lg-12">
                     <!-- Section Tite Start -->
                     <div class="section-title text-center wow fadeInUp" data-wow-delay="0.4s">
-                        <h2 class="text-anime-style-2">
-                            eQMS <span>Features</span> </h2>
+                        <h2 class="text-anime-style-2">eQMS <span>Features</span> </h2>
                         <p>
                             easyQ Solutions offers a user-friendly eQMS designed for both emerging MedTech startups
                             and
-                            established manufacturers <br>offering faster compliance, hassle free implementation,
+                            established manufacturers
+                            <br>
+                            offering faster compliance, hassle free implementation,
                             and
-                            effortless scalability<br> without the complexity of traditional systems.
+                            effortless scalability<br>
+                            without the complexity of traditional systems.
                         </p>
 
                     </div>
@@ -370,198 +368,204 @@ Easy to use without complexicity.
 
 
             </div>
-            <div class="row">
-                <div class="col-12 col-xxl-12 mx-auto">
-                    <div class="row mt-50 align-items-center wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="col-12 col-lg-6">
-                            <div class="feature-content ">
-                                <h2>
-                                    <span class="gredient-text type-2">Quality Policy
+
+            <div class="row mt-50 align-items-center wow fadeInUp" data-wow-delay="0.4s">
+                <div class="col-12 col-lg-6">
+                    <div class="feature-content ">
+                        <h2>
+                            <span class="gredient-text type-2">Quality Policy
 
 
-                                    </span>
-                                </h2>
-<p>Allows your organization to define, monitor and evaluate quality goals that are in line with your quality policy, promoting ongoing development and ensuring compliance with regulatory standards.
+                            </span>
+                        </h2>
+                        <p>
+                            Allows your organization to define, monitor and evaluate quality goals that are in line with your quality policy, promoting ongoing development and ensuring compliance with regulatory standards.
 
 
-                                </P>
-                            </div>
-                            <div class="feature-content">
-                                <h2>
-                                    <span class="gredient-text type-2">Quality Objective
-
-
-                                    </span>
-                                </h2>
-<p>Securely draft, authorize, and communicate your organization’s quality objective and communicate your organization’s quality commitments while making sure they comply with regulatory requirements and seamless integration with key quality procedures.
-
-</p>
-                            </div>
-                        </div>
-                        <div class="col-12 col-lg-6">
-                            <div class="feature-image">
-                                <div class="image-1">
-                                    <img src="./imgs/q1.png" alt="">
-                                </div>
-
-                                <div class="blocksglow"></div>
-                            </div>
-                        </div>
+                        </p>
                     </div>
-                    <div class="row mt-50 align-items-center reversed wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="feature-content">
+                        <h2>
+                            <span class="gredient-text type-2">Quality Objective
 
-                        <div class="col-12 col-lg-6">
-                            <div class="feature-image ps-0">
-                                <div class="image-1">
-                                    <img src="./imgs/q2.png" alt="">
-                                </div>
 
-                                <div class="blocksglow"></div>
-                            </div>
+                            </span>
+                        </h2>
+                        <p>
+                            Securely draft, authorize, and communicate your organization’s quality objective and communicate your organization’s quality commitments while making sure they comply with regulatory requirements and seamless integration with key quality procedures.
+
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="feature-image">
+                        <div class="image-1">
+                            <img src="imgs/products/1.webp" alt="">
                         </div>
-                        <div class="col-12 col-lg-6">
-                            <div class="feature-content">
-                                <h2>
-                                    <span class="gredient-text type-2">Responsibility & Authority
+
+                        <div class="blocksglow"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-50 align-items-center reversed wow fadeInUp" data-wow-delay="0.4s">
+
+                <div class="col-12 col-lg-6">
+                    <div class="feature-image ps-0">
+                        <div class="image-1">
+                            <img src="imgs/products/2.webp" alt="">
+                        </div>
+
+                        <div class="blocksglow"></div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="feature-content">
+                        <h2>
+                            <span class="gredient-text type-2">Responsibility & Authority
 
 
-                                    </span>
-                                </h2>
-                                <P>To ensure accountability and regulatory compliance, clearly define, document, and
+                            </span>
+                        </h2>
+                        <p>
+                            To ensure accountability and regulatory compliance, clearly define, document, and
                                     maintain clear roles, responsibilities and decision making authority throughout
                                     your
                                     organization.
 
-                                </P>
-                            </div>
-                            <div class="feature-content">
-                                <h2>
-                                    <span class="gredient-text type-2">Management Review
+                        </p>
+                    </div>
+                    <div class="feature-content">
+                        <h2>
+                            <span class="gredient-text type-2">Management Review
 
 
 
-                                    </span>
-                                </h2>
-                                <P>Simplifies the planning, execution, and documentation of management review
+                            </span>
+                        </h2>
+                        <p>
+                            Simplifies the planning, execution, and documentation of management review
                                     meetings
                                     to support data driven decision making and maintaining regulatory compliance and
                                     quality system standards.
 
 
-                                </P>
-                            </div>
-                        </div>
+                        </p>
                     </div>
-                    <div class="row  mt-50 align-items-center wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="col-12 col-lg-6">
-                            <div class="feature-content">
-                                <h2>
-                                    <span class="gredient-text type-2">Document Control
+                </div>
+            </div>
+            <div class="row  mt-50 align-items-center wow fadeInUp" data-wow-delay="0.4s">
+                <div class="col-12 col-lg-6">
+                    <div class="feature-content">
+                        <h2>
+                            <span class="gredient-text type-2">Document Control
 
 
-                                    </span>
-                                </h2>
-                                <P>Ensure accuracy, traceability, and rigorous adherence to regulatory standards by managing the drafting, review, approval, distribution, and revision of documents efficiently.
+                            </span>
+                        </h2>
+                        <p>
+                            Ensure accuracy, traceability, and rigorous adherence to regulatory standards by managing the drafting, review, approval, distribution, and revision of documents efficiently.
 
 
-                                </P>
-                            </div>
-                            <div class="feature-content">
-                                <h2>
-                                    <span class="gredient-text type-2">CAPA
+                        </p>
+                    </div>
+                    <div class="feature-content">
+                        <h2>
+                            <span class="gredient-text type-2">CAPA
 
 
 
-                                    </span>
-                                </h2>
-                                <P>Centralize problem identification, tracking, documentation and resolution to
+                            </span>
+                        </h2>
+                        <p>
+                            Centralize problem identification, tracking, documentation and resolution to
                                     facilitate in-depth root cause analysis and ensure regulatory compliance.
 
 
-                                </P>
-                            </div>
-                        </div>
-                        <div class="col-12 col-lg-6">
-                            <div class="feature-image">
-                                <div class="image-1">
-                                    <img src="./imgs/q3.png" alt="">
-                                </div>
-
-                                <div class="blocksglow"></div>
-                            </div>
-                        </div>
+                        </p>
                     </div>
-                    <div class="row mt-50 align-items-center reversed wow fadeInUp" data-wow-delay="0.4s">
-
-                        <div class="col-12 col-lg-6">
-                            <div class="feature-image ps-0">
-                                <div class="image-1">
-                                    <img src="./imgs/q4.png" alt="">
-                                </div>
-
-                                <div class="blocksglow"></div>
-                            </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="feature-image">
+                        <div class="image-1">
+                            <img src="imgs/products/3.webp" alt="">
                         </div>
-                        <div class="col-12 col-lg-6">
-                            <div class="feature-content">
-                                <h2>
-                                    <span class="gredient-text type-2">Training
+
+                        <div class="blocksglow"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-50 align-items-center reversed wow fadeInUp" data-wow-delay="0.4s">
+
+                <div class="col-12 col-lg-6">
+                    <div class="feature-image ps-0">
+                        <div class="image-1">
+                            <img src="imgs/products/4.webp" alt="">
+                        </div>
+
+                        <div class="blocksglow"></div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="feature-content">
+                        <h2>
+                            <span class="gredient-text type-2">Training
 
 
 
-                                    </span>
-                                </h2>
-                                <P>Simplify the training processes management by monitoring employee development,
+                            </span>
+                        </h2>
+                        <p>
+                            Simplify the training processes management by monitoring employee development,
                                     ensuring regulatory compliance and making the training records and materials
                                     easily
                                     accessible for continuous improvement.
 
 
-                                </P>
-                            </div>
-                            <div class="feature-content">
-                                <h2>
-                                    <span class="gredient-text type-2">Risk Management
-
-
-
-
-                                    </span>
-                                </h2>
-                                <P>Inline with ISO 14971, assure efficient Risk Management throughout the product lifecycle by proactively identifying, evaluating, and mitigating risks while adhering to industry standards and regulations.
-</P>
-                            </div>
-                        </div>
+                        </p>
                     </div>
-                    <div class="row  mt-50 align-items-center wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="col-12 col-lg-6">
-                            <div class="feature-content">
-                                <h2>
-                                    <span class="gredient-text type-2">Complaint Management
+                    <div class="feature-content">
+                        <h2>
+                            <span class="gredient-text type-2">Risk Management
 
 
 
-                                    </span>
-                                </h2>
-                                <P>Simplify the process of handling complaints so that they can be investigated,
+
+                            </span>
+                        </h2>
+                        <p>
+                            Inline with ISO 14971, assure efficient Risk Management throughout the product lifecycle by proactively identifying, evaluating, and mitigating risks while adhering to industry standards and regulations.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row  mt-50 align-items-center wow fadeInUp" data-wow-delay="0.4s">
+                <div class="col-12 col-lg-6">
+                    <div class="feature-content">
+                        <h2>
+                            <span class="gredient-text type-2">Complaint Management
+
+
+
+                            </span>
+                        </h2>
+                        <p>
+                            Simplify the process of handling complaints so that they can be investigated,
                                     documented, and resolved quickly. This will turn complaints into insightful
                                     information that can be used to improve products and increase customer
                                     satisfaction.
 
 
-                                </P>
-                            </div>
+                        </p>
+                    </div>
 
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="feature-image">
+                        <div class="image-1">
+                            <img src="imgs/products/5.webp" alt="">
                         </div>
-                        <div class="col-12 col-lg-6">
-                            <div class="feature-image">
-                                <div class="image-1">
-                                    <img src="./imgs/q5.png" alt="">
-                                </div>
 
-                                <div class="blocksglow"></div>
-                            </div>
-                        </div>
+                        <div class="blocksglow"></div>
                     </div>
                 </div>
             </div>
@@ -570,12 +574,11 @@ Easy to use without complexicity.
 
         </div>
     </div>
-    </div> <!-- Our Faqs Section End -->
-        </div>
+
     <div class="contact-info-section">
         <div class="container">
             <!-- Hero Section -->
-            <div class="section-title">
+            <div class="section-title text-center">
                 <h2 class="">Know more about easyQ <span>eQMS</span></h2>
             </div>
 
@@ -585,7 +588,7 @@ Easy to use without complexicity.
                 <div class="col-lg-4 col-md-6">
                     <div class="feature-card wow fadeInUp" data-wow-delay="0.4s">
                         <div class="feature-img">
-                            <img src="./imgs/c1.png">
+                            <img src="./imgs/c1.webp" alt="">
                         </div>
                         <div class="content">
                             <h3 class="feature-title">Pricing</h3>
@@ -593,7 +596,7 @@ Easy to use without complexicity.
                                 Get full access to our eQMS with a single, transparent pricing structure.
                             </p>
 
-                            <a href="/contact-us.aspx" class="readmore-btn" contenteditable="false" style="cursor: pointer;"> Request
+                            <a href="/contact-us.aspx" class="readmore-btn" contenteditable="false" style="cursor: pointer;">Request
                                 Pricing Info
                             </a>
                         </div>
@@ -605,7 +608,7 @@ Easy to use without complexicity.
                 <div class="col-lg-4 col-md-6">
                     <div class="feature-card wow fadeInUp" data-wow-delay="0.4s">
                         <div class="feature-img">
-                            <img src="./imgs/c2.png">
+                            <img src="imgs/products/Contact-us.webp" alt="">
                         </div>
                         <div class="content">
                             <h3 class="feature-title">Contact Us</h3>
@@ -613,7 +616,7 @@ Easy to use without complexicity.
                                 Contact us to start your smart Compliance journey.
                             </p>
 
-                            <a href="/contact-us.aspx" class="readmore-btn" contenteditable="false" style="cursor: pointer;"> Contact
+                            <a href="/contact-us.aspx" class="readmore-btn" contenteditable="false" style="cursor: pointer;">Contact
                                 US
                             </a>
                         </div>
@@ -622,18 +625,20 @@ Easy to use without complexicity.
                 </div>
 
                 <!-- Demo Column -->
-                <div class="col-lg-4 col-md-12">
+                <div class="col-lg-4 col-md-6">
                     <div class="feature-card wow fadeInUp" data-wow-delay="0.4s">
                         <div class="feature-img">
-                            <img src="./imgs/c3.png">
+                            <img src="imgs/products/Demo.webp" alt="">
                         </div>
 
                         <div class="content">
                             <h3 class="feature-title">Demo</h3>
                             <p class="feature-description">
-                                Book a demo and see our eQMS <br>in action
+                                Book a demo and see our eQMS
+                                <br>
+                                in action
                             </p>
-                            <a href="javascript:void(0);" class="readmore-btn" contenteditable="false" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#enquireform"> Book Demo
+                            <a href="javascript:void(0);" class="readmore-btn" contenteditable="false" style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#enquireform">Book Demo
                             </a>
 
                         </div>

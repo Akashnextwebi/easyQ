@@ -1,6 +1,13 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="./MasterPage.master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+    <style>
+        .company-success-img img {
+    width: 100%;
+    aspect-ratio: 1 / 1.1;
+    object-fit: cover;
+}
+    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     
@@ -14,7 +21,8 @@
             <div class="hero-slide">
               <!-- Slider Image Start -->
               <div class="hero-slider-image">
-                <img src="imgs/HomePage/Hero-Section.png" alt="" />
+                                  <img src="imgs/HomePage/mob.webp" alt="" class="d-lg-none d-block" />
+                <img src="imgs/hero-section1.webp" alt="" class="d-lg-block d-block" />
               </div>
               <!-- Slider Image End -->
 
@@ -29,7 +37,7 @@
                         <h1 class="text-anime-style-2">
                         Smart Quality Management System for Medical Device Companies
                         </h1>
-                          <div class="pr-50">
+                          <div class="pr-80">
 
                        
                         <p class="wow fadeInUp">
@@ -46,13 +54,17 @@
                       <!-- Hero Body Start -->
                       <div class="hero-body wow fadeInUp" data-wow-delay="0.2s">
                         <!-- Hero Button Start -->
-                        <div class="hero-btn">
-                          <a href="javascript:void(0);" class="btn-default btn-highlighted" data-bs-toggle="modal" data-bs-target="#enquireform">Book Demo Now</a>
+                        <div class="hero-btn hero-card">
+                          <a href="javascript:void(0);" class="btn-secondary1" data-bs-toggle="modal" data-bs-target="#enquireform">Book Demo Now</a>
                           <a href="/product.aspx" class="btn-secondary ms-3">Explore Features</a>
 
                         </div>
                         <!-- Hero Button End -->
                       </div>
+
+                        <div class="pt-3 d-lg-none d-block">
+                       <img src="imgs/HomePage/mobile-pro.webp"  class="img-fluid "/>
+                        </div>
                       <!-- Hero Body End -->
                     </div>
                     <!-- Hero Content End -->
@@ -61,11 +73,11 @@
               </div>
             </div>
           </div>
-          <div class="swiper-slide">
+          <%--<div class="swiper-slide">
             <div class="hero-slide">
               <!-- Slider Image Start -->
               <div class="hero-slider-image">
-                <img src="imgs/banner-2.png" alt="" />
+                <img src="imgs/banner-2.webp" alt="" />
               </div>
               <!-- Slider Image End -->
               <div class="hero-overlay"></div>
@@ -108,7 +120,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div>--%>
           <!-- Hero Slide End -->
 
           <!-- Hero Slide Start -->
@@ -215,7 +227,7 @@
             <!-- How Work Image Start -->
             <div class="how-work-img">
               <figure class="image-anime reveal">
-                <img src="./imgs/how-it-work-1.png" alt="" />
+                <img src="./imgs/how-it-work-1.webp" alt="" />
               </figure>
 
               <!-- <h3>how we work</h3> -->
@@ -327,10 +339,10 @@ It is a modern, <b>cloud-based QMS</b> that works from day one
       <div class="row align-items-center">
         <div class="col-lg-12">
           <div class="company-activity-box">
-            <div class="company-activity-item">
+            <div class="company-activity-item reversed">
               <div class="company-activity-image">
                 <figure>
-                  <img src="imgs/HomePage/Measurable-Outcomes.png" alt="" />
+                  <img src="imgs/HomePage/Measurable-Outcomes.webp" alt="" />
                 </figure>
               </div>
               <div class="company-activity-content">
@@ -447,12 +459,12 @@ It is a modern, <b>cloud-based QMS</b> that works from day one
                   <%=strClients %>
                <%-- <div class="swiper-slide">
                   <div class="our-partner-item client-logo wow fadeInUp">
-                    <img src="imgs/clients/client-1.png" alt="" />
+                    <img src="imgs/clients/client-1.webp" alt="" />
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="our-partner-item client-logo wow fadeInUp" data-wow-delay="0.2s">
-                    <img src="imgs/clients/client-2.png" alt="" />
+                    <img src="imgs/clients/client-2.webp" alt="" />
                   </div>
                 </div>
                 <div class="swiper-slide">
@@ -462,22 +474,22 @@ It is a modern, <b>cloud-based QMS</b> that works from day one
                 </div>
                 <div class="swiper-slide">
                   <div class="our-partner-item client-logo wow fadeInUp" data-wow-delay="0.4s">
-                    <img src="imgs/clients/client-4.png" alt="" />
+                    <img src="imgs/clients/client-4.webp" alt="" />
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="our-partner-item client-logo wow fadeInUp" data-wow-delay="0.4s">
-                    <img src="imgs/clients/client-5.png" alt="" />
+                    <img src="imgs/clients/client-5.webp" alt="" />
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="our-partner-item client-logo wow fadeInUp" data-wow-delay="0.4s">
-                    <img src="imgs/clients/client-6.png" alt="" />
+                    <img src="imgs/clients/client-6.webp" alt="" />
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="our-partner-item client-logo wow fadeInUp" data-wow-delay="0.4s">
-                    <img src="imgs/clients/client-7.png" alt="" />
+                    <img src="imgs/clients/client-7.webp" alt="" />
                   </div>
                 </div>
                 <div class="swiper-slide">
@@ -525,40 +537,37 @@ It is a modern, <b>cloud-based QMS</b> that works from day one
 <div class="container certicicate-images">
 
   <!-- Top Row -->
-  <div class="row justify-content-center mb-4">
-      <div class="col-md-4 col-sm-6 wow fadeInUp">
+  <div class="row justify-content-center mb-4 gy-4">
+      <div class="col-lg-4 col-md-2 col-4 wow fadeInUp">
   <div class="image text-center">
     <img src="imgs/certificates/3.webp" alt="" class="img-fluid w-75" />
   </div>
 </div>
-    <div class="col-md-4 col-sm-6 wow fadeInUp">
+      <div class="col-lg-4 col-md-2 col-4 wow fadeInUp">
       <div class="image text-center">
         <img src="imgs/certificates/1.webp" alt="" class="img-fluid w-75" />
       </div>
     </div>
    
-    <div class="col-md-4 col-sm-6 wow fadeInUp">
+      <div class="col-lg-4 col-md-2 col-4 wow fadeInUp">
   <div class="image text-center">
     <img src="imgs/certificates/4.webp" alt="" class="img-fluid w-75" />
   </div>
 </div>
-  </div>
 
-  <!-- Bottom Row -->
-  <div class="row justify-content-center">
-     <div class="col-md-4 col-sm-6 wow fadeInUp">
+      <div class="col-lg-4 col-md-2 col-4 wow fadeInUp">
    <div class="image text-center">
      <img src="imgs/certificates/2.webp" alt="" class="img-fluid w-75" />
    </div>
  </div>
-    <div class="col-md-4 col-sm-6 wow fadeInUp">
+      <div class="col-lg-4 col-md-2 col-4 wow fadeInUp">
       <div class="image text-center">
         <img src="imgs/certificates/5.webp" alt="" class="img-fluid w-75" />
       </div>
     </div>
-    <div class="col-md-4 col-sm-6 wow fadeInUp">
+      <div class="col-lg-4 col-md-2 col-4 wow fadeInUp">
       <div class="image text-center">
-        <img src="imgs/certificates/6.png" alt="" class="img-fluid w-75" />
+        <img src="imgs/certificates/6.webp" alt="" class="img-fluid w-75" />
       </div>
     </div>
   </div>
@@ -575,7 +584,7 @@ It is a modern, <b>cloud-based QMS</b> that works from day one
                 <div class="company-success-img">
                   <figure class="image-anime reveal"
                     style="transform: translate(0px, 0px); opacity: 1; visibility: inherit;">
-                    <img src="./imgs/1.png" alt="" style="transform: translate(0px, 0px);">
+                    <img src="imgs/HomePage/comp.webp" alt="" style="transform: translate(0px, 0px);">
                   </figure>
                 </div>
                 <!-- Company Success Img End -->
@@ -598,7 +607,7 @@ It is a modern, <b>cloud-based QMS</b> that works from day one
   <div class="our-integration certicicate-images d-none">
     <div class="container">
       <div class="row">
-        <div class="col-lg-7">
+        <div class="col-lg-7">Compliance assuredCompliance assured
           <!-- Section Tite Start -->
           <div class="section-title">
             <h3 class="wow fadeInUp">our certifications</h3>
@@ -645,7 +654,7 @@ It is a modern, <b>cloud-based QMS</b> that works from day one
               <div class="how-work-img">
                 <figure class="image-anime reveal"
                   style="transform: translate(0px, 0px); opacity: 1; visibility: inherit;">
-                  <img src="./imgs/about2.png" alt="" style="transform: translate(0px, 0px);">
+                  <img src="./imgs/about2.webp" alt="" style="transform: translate(0px, 0px);">
                 </figure>
 
                 <h3>Effortless Compliance in a Constantly Evolving MedTech Landscape
@@ -840,7 +849,7 @@ It is a modern, <b>cloud-based QMS</b> that works from day one
             <div class="post-featured-image">
               <a href="#">
                 <figure class="image-anime">
-                  <img src="./imgs/blog1.png" alt="" />
+                  <img src="./imgs/blog1.webp" alt="" />
                 </figure>
               </a>
             </div>
@@ -876,7 +885,7 @@ It is a modern, <b>cloud-based QMS</b> that works from day one
             <div class="post-featured-image">
               <a href="#">
                 <figure class="image-anime">
-                  <img src="./imgs/blog2.png" alt="" />
+                  <img src="./imgs/blog2.webp" alt="" />
                 </figure>
               </a>
             </div>
@@ -912,7 +921,7 @@ It is a modern, <b>cloud-based QMS</b> that works from day one
             <div class="post-featured-image">
               <a href="#">
                 <figure class="image-anime">
-                  <img src="./imgs/blog3.png" alt="" />
+                  <img src="./imgs/blog3.webp" alt="" />
                 </figure>
               </a>
             </div>
@@ -1105,10 +1114,10 @@ It is a modern, <b>cloud-based QMS</b> that works from day one
   <section class="cta-container">
     <div class="container">
       <div class="cta-card text-start">
-        <img src="./imgs/cta2.png" alt="" class="cta-image ">
+        <img src="./imgs/cta2.webp" alt="" class="cta-image  wow fadeInUp" data-wow-delay="0.4s">
 
 
-        <div class="cta-content wow fadeInUp" data-wow-delay="0.4s">
+        <div class="cta-content wow fadeInUp" data-wow-delay="0.4s"> 
           <h2 class=" cta-title ">
             Your compliance Journey Begins in One Click
           </h2>

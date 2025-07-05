@@ -10,7 +10,7 @@
       <div class="hero-slide">
         <!-- Slider Image Start -->
         <div class="hero-slider-image">
-          <img src="imgs/sh2.png" alt="" />
+          <img src="imgs/Services/q.webp" alt="" />
         </div>
         <!-- Slider Image End -->
         <div class="hero-overlay"></div>
@@ -89,42 +89,42 @@
                   <%=strClients %>
                <%-- <div class="swiper-slide">
                   <div class="our-partner-item client-logo wow fadeInUp">
-                    <img src="imgs/clients/client-1.png" alt="" />
+                    <img src="imgs/clients/client-1.webp" alt="" />
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="our-partner-item client-logo wow fadeInUp" data-wow-delay="0.2s">
-                    <img src="imgs/clients/client-2.png" alt="" />
+                    <img src="imgs/clients/client-2.webp" alt="" />
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="our-partner-item client-logo wow fadeInUp" data-wow-delay="0.4s">
-                    <img src="imgs/clients/client-3.jpg" alt="" />
+                    <img src="imgs/clients/client-3.webp" alt="" />
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="our-partner-item client-logo wow fadeInUp" data-wow-delay="0.4s">
-                    <img src="imgs/clients/client-4.png" alt="" />
+                    <img src="imgs/clients/client-4.webp" alt="" />
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="our-partner-item client-logo wow fadeInUp" data-wow-delay="0.4s">
-                    <img src="imgs/clients/client-5.png" alt="" />
+                    <img src="imgs/clients/client-5.webp" alt="" />
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="our-partner-item client-logo wow fadeInUp" data-wow-delay="0.4s">
-                    <img src="imgs/clients/client-6.png" alt="" />
+                    <img src="imgs/clients/client-6.webp" alt="" />
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="our-partner-item client-logo wow fadeInUp" data-wow-delay="0.4s">
-                    <img src="imgs/clients/client-7.png" alt="" />
+                    <img src="imgs/clients/client-7.webp" alt="" />
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="our-partner-item client-logo wow fadeInUp" data-wow-delay="0.4s">
-                    <img src="imgs/clients/SALCIT.jpg" alt="" />
+                    <img src="imgs/clients/SALCIT.webp" alt="" />
                   </div>
                 </div>--%>
               </div>
@@ -147,8 +147,8 @@
             <div class="section-title">
               <h2 class="text-anime-style-2 text-white">Our Services Include</h2>
               <p class="wow fadeInUp text-white" data-wow-delay="0.2s">
-                easyQ Solutions is a trusted regulatory partner for Medical Device manufacturers looking for smooth
-                market entry across the U.S., India, Europe, and other global regions.
+              easyQ Solutions help you develop a strong Quality Management System (QMS) totally aligning with the particular requirements and objectives of your company. 
+
               </p>
               <p class="wow fadeInUp text-white" data-wow-delay="0.2s">
                 From defining precise quality objectives to building efficient procedures and documentation, we create
@@ -330,42 +330,42 @@
                       <li class="nav-item" role="presentation">
                         <button class="nav-link active" id="documents-tab" data-bs-toggle="tab"
                           data-bs-target="#documents" type="button" role="tab" aria-selected="true">
-                          <img src="./imgs/icons/111.png" alt="" />
+                          <img src="./imgs/icons/111.webp" alt="" />
                           Regulatory & Industry Expertise
                         </button>
                       </li>
                       <li class="nav-item" role="presentation">
                         <button class="nav-link" id="event-tab" data-bs-toggle="tab" data-bs-target="#event"
                           type="button" role="tab" aria-selected="false" tabindex="-1">
-                          <img src="./imgs/icons/222.png" alt="" />
+                          <img src="./imgs/icons/222.webp" alt="" />
                           Built for Continuous Improvement
                         </button>
                       </li>
                       <li class="nav-item" role="presentation">
                         <button class="nav-link" id="meetings-tab" data-bs-toggle="tab" data-bs-target="#meetings"
                           type="button" role="tab" aria-selected="false" tabindex="-1">
-                          <img src="./imgs/icons/333.png" alt="" />
+                          <img src="./imgs/icons/333.webp" alt="" />
                           Tailored, Business-Aligned Solutions
                         </button>
                       </li>
                       <li class="nav-item" role="presentation">
                         <button class="nav-link" id="sessions-tab" data-bs-toggle="tab" data-bs-target="#sessions"
                           type="button" role="tab" aria-selected="false" tabindex="-1">
-                          <img src="./imgs/icons/444.png" alt="" />
+                          <img src="./imgs/icons/444.webp" alt="" />
                           Integrated with our own QMS Software
                         </button>
                       </li>
                       <li class="nav-item" role="presentation">
                         <button class="nav-link" id="support-tab" data-bs-toggle="tab" data-bs-target="#support"
                           type="button" role="tab" aria-selected="false" tabindex="-1">
-                          <img src="./imgs/icons/44.png" alt="" />
+                          <img src="./imgs/icons/44.webp" alt="" />
                           End-to-End Implementation Support
                         </button>
                       </li>
                       <li class="nav-item" role="presentation">
                         <button class="nav-link" id="scalable-tab" data-bs-toggle="tab" data-bs-target="#scalable"
                           type="button" role="tab" aria-selected="false" tabindex="-1">
-                          <img src="./imgs/icons/666.png" alt="" />
+                          <img src="./imgs/icons/666.webp" alt="" />
                           Streamlined and Scalable
                         </button>
                       </li>
@@ -395,7 +395,7 @@
                     <!-- Feature Tab Content Header Start -->
                     <div class="feature-tab-content-header">
                       <div class="icon-box">
-                        <img src="./imgs/icons/111.png" alt="" />
+                        <img src="./imgs/icons/111.webp" alt="" />
                       </div>
                       <div class="feature-tab-header-content">
                         <h3>Regulatory & Industry Expertise</h3>
@@ -423,7 +423,7 @@
                   <!-- Feature Tab Image Start -->
                   <div class="feature-tab-img">
                     <figure>
-                      <img src="./imgs/icons/w111.jpg" alt="" />
+                      <img src="./imgs/icons/w111.webp" alt="" />
                     </figure>
                   </div>
                   <!-- Feature Tab Image End -->
@@ -441,7 +441,7 @@
                     <!-- Feature Tab Content Header Start -->
                     <div class="feature-tab-content-header">
                       <div class="icon-box">
-                        <img src="./imgs/icons/222.png" alt="" />
+                        <img src="./imgs/icons/222.webp" alt="" />
                       </div>
                       <div class="feature-tab-header-content">
                         <h3>Built for Continuous Improvement</h3>
@@ -473,7 +473,7 @@
                   <!-- Feature Tab Image Start -->
                   <div class="feature-tab-img">
                     <figure>
-                      <img src="./imgs/icons/w222.jpg" alt="" />
+                      <img src="./imgs/icons/w222.webp" alt="" />
                     </figure>
                   </div>
                   <!-- Feature Tab Image End -->
@@ -491,7 +491,7 @@
                     <!-- Feature Tab Content Header Start -->
                     <div class="feature-tab-content-header">
                       <div class="icon-box">
-                        <img src="./imgs/icons/333.png" alt="" />
+                        <img src="./imgs/icons/333.webp" alt="" />
                       </div>
                       <div class="feature-tab-header-content">
                         <h3>Tailored, Business-Aligned Solutions</h3>
@@ -522,7 +522,7 @@
                   <!-- Feature Tab Image Start -->
                   <div class="feature-tab-img">
                     <figure>
-                      <img src="./imgs/icons/w333.jpg" alt="" />
+                      <img src="./imgs/icons/w333.webp" alt="" />
                     </figure>
                   </div>
                   <!-- Feature Tab Image End -->
@@ -540,7 +540,7 @@
                     <!-- Feature Tab Content Header Start -->
                     <div class="feature-tab-content-header">
                       <div class="icon-box">
-                        <img src="./imgs/icons/444.png" alt="" />
+                        <img src="./imgs/icons/444.webp" alt="" />
                       </div>
                       <div class="feature-tab-header-content">
                         <h3>Integrated with our own QMS Software</h3>
@@ -569,7 +569,7 @@
                   <!-- Feature Tab Image Start -->
                   <div class="feature-tab-img">
                     <figure>
-                      <img src="./imgs/icons/w444.jpg" alt="" />
+                      <img src="./imgs/icons/w444.webp" alt="" />
                     </figure>
                   </div>
                   <!-- Feature Tab Image End -->
@@ -586,7 +586,7 @@
                     <!-- Feature Tab Content Header Start -->
                     <div class="feature-tab-content-header">
                       <div class="icon-box">
-                        <img src="./imgs/icons/44.png" alt="" />
+                        <img src="./imgs/icons/44.webp" alt="" />
                       </div>
                       <div class="feature-tab-header-content">
                         <h3>End-to-End Implementation Support </h3>
@@ -615,7 +615,7 @@
                   <!-- Feature Tab Image Start -->
                   <div class="feature-tab-img">
                     <figure>
-                      <img src="./imgs/icons/w44.jpg" alt="" />
+                      <img src="./imgs/icons/w44.webp" alt="" />
                     </figure>
                   </div>
                   <!-- Feature Tab Image End -->
@@ -632,7 +632,7 @@
                     <!-- Feature Tab Content Header Start -->
                     <div class="feature-tab-content-header">
                       <div class="icon-box">
-                        <img src="./imgs/icons/666.png" alt="" />
+                        <img src="./imgs/icons/666.webp" alt="" />
                       </div>
                       <div class="feature-tab-header-content">
                         <h3>Streamlined and Scalable</h3>
@@ -660,7 +660,7 @@
                   <!-- Feature Tab Image Start -->
                   <div class="feature-tab-img">
                     <figure>
-                      <img src="./imgs/icons/w666.jpg" alt="" />
+                      <img src="./imgs/icons/w666.webp" alt="" />
                     </figure>
                   </div>
                   <!-- Feature Tab Image End -->

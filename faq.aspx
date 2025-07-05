@@ -3,7 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-      <div class="page-header" style="background-image: url(imgs/resource/faq.png)">
+      <div class="page-header" style="background-image: url(imgs/resource/faq.webp)">
       <div class="container">
           <div class="row">
               <div class="col-lg-12">

@@ -41,12 +41,12 @@ public partial class Admin_manage_articles : System.Web.UI.Page
 
                     return;
                 }
-                else if (resmsg == "Size")
-                {
-                    ScriptManager.RegisterStartupScript(this, this.GetType(), "Message", "Snackbar.show({pos: 'top-right',text: 'Image size should be 400*320 px',actionTextColor: '#fff',backgroundColor: '#ea1c1c'});", true);
+                //else if (resmsg == "Size")
+                //{
+                //    ScriptManager.RegisterStartupScript(this, this.GetType(), "Message", "Snackbar.show({pos: 'top-right',text: 'Image size should be 400*320 px',actionTextColor: '#fff',backgroundColor: '#ea1c1c'});", true);
 
-                    return;
-                }
+                //    return;
+                //}
                 string respdf = CheckPDFFormat();
                 if (respdf == "Format")
                 {
@@ -316,15 +316,15 @@ public partial class Admin_manage_articles : System.Web.UI.Page
                 {
                     return thumbImage;
                 }
-                else
-                {
-                    System.Drawing.Bitmap bmpPostedImageBig = new System.Drawing.Bitmap(FileUpload1.PostedFile.InputStream);
-                    System.Drawing.Image objImagesmallBig = CommonModel.ScaleImageBig(bmpPostedImageBig, bmpPostedImageBig.Height, bmpPostedImageBig.Width);
-                    if (bmpPostedImageBig.Height != 320 && bmpPostedImageBig.Width != 400)
-                    {
-                        return "Size";
-                    }
-                }
+                //else
+                //{
+                //    System.Drawing.Bitmap bmpPostedImageBig = new System.Drawing.Bitmap(FileUpload1.PostedFile.InputStream);
+                //    System.Drawing.Image objImagesmallBig = CommonModel.ScaleImageBig(bmpPostedImageBig, bmpPostedImageBig.Height, bmpPostedImageBig.Width);
+                //    if (bmpPostedImageBig.Height != 320 && bmpPostedImageBig.Width != 400)
+                //    {
+                //        return "Size";
+                //    }
+                //}
 
             }
             else

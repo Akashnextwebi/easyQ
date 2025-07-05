@@ -10,7 +10,7 @@
       <div class="hero-slide">
         <!-- Slider Image Start -->
         <div class="hero-slider-image">
-          <img src="imgs/sh3.png" alt="" />
+          <img src="imgs/Services/s.webp" alt="" />
         </div>
         <!-- Slider Image End -->
         <div class="hero-overlay"></div>
@@ -88,42 +88,42 @@
                 <!-- Slides -->
                 <%--<div class="swiper-slide">
                   <div class="our-partner-item client-logo wow fadeInUp">
-                    <img src="imgs/clients/client-1.png" alt="" />
+                    <img src="imgs/clients/client-1.webp" alt="" />
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="our-partner-item client-logo wow fadeInUp" data-wow-delay="0.2s">
-                    <img src="imgs/clients/client-2.png" alt="" />
+                    <img src="imgs/clients/client-2.webp" alt="" />
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="our-partner-item client-logo wow fadeInUp" data-wow-delay="0.4s">
-                    <img src="imgs/clients/client-3.jpg" alt="" />
+                    <img src="imgs/clients/client-3.webp" alt="" />
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="our-partner-item client-logo wow fadeInUp" data-wow-delay="0.4s">
-                    <img src="imgs/clients/client-4.png" alt="" />
+                    <img src="imgs/clients/client-4.webp" alt="" />
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="our-partner-item client-logo wow fadeInUp" data-wow-delay="0.4s">
-                    <img src="imgs/clients/client-5.png" alt="" />
+                    <img src="imgs/clients/client-5.webp" alt="" />
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="our-partner-item client-logo wow fadeInUp" data-wow-delay="0.4s">
-                    <img src="imgs/clients/client-6.png" alt="" />
+                    <img src="imgs/clients/client-6.webp" alt="" />
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="our-partner-item client-logo wow fadeInUp" data-wow-delay="0.4s">
-                    <img src="imgs/clients/client-7.png" alt="" />
+                    <img src="imgs/clients/client-7.webp" alt="" />
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="our-partner-item client-logo wow fadeInUp" data-wow-delay="0.4s">
-                    <img src="imgs/clients/SALCIT.jpg" alt="" />
+                    <img src="imgs/clients/SALCIT.webp" alt="" />
                   </div>
                 </div>--%>
               </div>
@@ -355,28 +355,28 @@
                       <li class="nav-item" role="presentation">
                         <button class="nav-link active" id="documents-tab" data-bs-toggle="tab"
                           data-bs-target="#documents" type="button" role="tab" aria-selected="true">
-                          <img src="./imgs/icons/11.png" alt="" />
+                          <img src="./imgs/icons/11.webp" alt="" />
                           Expertise in Emerging Technologies
                         </button>
                       </li>
                       <li class="nav-item" role="presentation">
                         <button class="nav-link" id="event-tab" data-bs-toggle="tab" data-bs-target="#event"
                           type="button" role="tab" aria-selected="false" tabindex="-1">
-                          <img src="./imgs/icons/22.png" alt="" />
+                          <img src="./imgs/icons/22.webp" alt="" />
                           Proven Success Across Global Markets
                         </button>
                       </li>
                       <li class="nav-item" role="presentation">
                         <button class="nav-link" id="meetings-tab" data-bs-toggle="tab" data-bs-target="#meetings"
                           type="button" role="tab" aria-selected="false" tabindex="-1">
-                          <img src="./imgs/icons/33.png" alt="" />
+                          <img src="./imgs/icons/33.webp" alt="" />
                           Up to Date with Evolving Guidelines
                         </button>
                       </li>
                       <li class="nav-item" role="presentation">
                         <button class="nav-link" id="sessions-tab" data-bs-toggle="tab" data-bs-target="#sessions"
                           type="button" role="tab" aria-selected="false" tabindex="-1">
-                          <img src="./imgs/icons/44.png" alt="" />
+                          <img src="./imgs/icons/44.webp" alt="" />
                           End-to-End Support
                         </button>
                       </li>
@@ -408,7 +408,7 @@
                     <!-- Feature Tab Content Header Start -->
                     <div class="feature-tab-content-header">
                       <div class="icon-box">
-                        <img src="./imgs/icons/11.png" alt="" />
+                        <img src="./imgs/icons/11.webp" alt="" />
                       </div>
                       <div class="feature-tab-header-content">
                         <h3>Expertise in Emerging Technologies</h3>
@@ -442,7 +442,7 @@
                   <!-- Feature Tab Image Start -->
                   <div class="feature-tab-img">
                     <figure>
-                      <img src="./imgs/icons/ww11.jpg" alt="" />
+                      <img src="./imgs/icons/ww11.webp" alt="" />
                     </figure>
                   </div>
                   <!-- Feature Tab Image End -->
@@ -460,7 +460,7 @@
                     <!-- Feature Tab Content Header Start -->
                     <div class="feature-tab-content-header">
                       <div class="icon-box">
-                        <img src="./imgs/icons/22.png" alt="" />
+                        <img src="./imgs/icons/22.webp" alt="" />
                       </div>
                       <div class="feature-tab-header-content">
                         <h3>Proven Success Across Global Markets</h3>
@@ -492,7 +492,7 @@
                   <!-- Feature Tab Image Start -->
                   <div class="feature-tab-img">
                     <figure>
-                      <img src="./imgs/icons/w22.jpg" alt="" />
+                      <img src="./imgs/icons/w22.webp" alt="" />
                     </figure>
                   </div>
                   <!-- Feature Tab Image End -->
@@ -510,7 +510,7 @@
                     <!-- Feature Tab Content Header Start -->
                     <div class="feature-tab-content-header">
                       <div class="icon-box">
-                        <img src="./imgs/icons/33.png" alt="" />
+                        <img src="./imgs/icons/33.webp" alt="" />
                       </div>
                       <div class="feature-tab-header-content">
                         <h3>Up to Date with Evolving Guidelines</h3>
@@ -538,7 +538,7 @@
                   <!-- Feature Tab Image Start -->
                   <div class="feature-tab-img">
                     <figure>
-                      <img src="./imgs/icons/w33.jpg" alt="" />
+                      <img src="./imgs/icons/w33.webp" alt="" />
                     </figure>
                   </div>
                   <!-- Feature Tab Image End -->
@@ -556,7 +556,7 @@
                     <!-- Feature Tab Content Header Start -->
                     <div class="feature-tab-content-header">
                       <div class="icon-box">
-                        <img src="./imgs/icons/44.png" alt="" />
+                        <img src="./imgs/icons/44.webp" alt="" />
                       </div>
                       <div class="feature-tab-header-content">
                         <h3>End-to-End Support</h3>
@@ -584,7 +584,7 @@
                   <!-- Feature Tab Image Start -->
                   <div class="feature-tab-img">
                     <figure>
-                      <img src="./imgs/icons/w44.jpg" alt="" />
+                      <img src="./imgs/icons/w44.webp" alt="" />
                     </figure>
                   </div>
                   <!-- Feature Tab Image End -->

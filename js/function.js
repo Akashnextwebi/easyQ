@@ -135,7 +135,6 @@
       },
     });
   }
-
     if ($(".gallery-slider").length) {
         const testimonial_slider = new Swiper(".gallery-slider .swiper", {
             slidesPerView: 5,
@@ -151,6 +150,28 @@
                 nextEl: ".testimonial-arrows .swiper-button-next",
                 prevEl: ".testimonial-arrows .swiper-button-prev",
             },
+            breakpoints: {
+                320: {
+                    slidesPerView: 1,
+                    spaceBetween: 0,
+                },
+                576: {
+                    slidesPerView: 1,
+                    spaceBetween: 0,
+                },
+                768: {
+                    slidesPerView: 3,
+                    spaceBetween: 20,
+                },
+                992: {
+                    slidesPerView: 4,
+                    spaceBetween: 25,
+                },
+                1200: {
+                    slidesPerView: 5,
+                    spaceBetween: 30,
+                },
+            },
         });
 
         // Pause autoplay on hover
@@ -163,6 +184,7 @@
             testimonial_slider.autoplay.start();
         });
     }
+
 
   /* Skill Bar */
   if ($(".skills-progress-bar").length) {

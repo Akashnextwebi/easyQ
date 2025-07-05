@@ -15,7 +15,7 @@
     <!-- Page Title -->
     <title>Quality Management Software for Medical Devices: easyQ eQMS</title>
     <!-- Favicon Icon -->
-    <link rel="shortcut icon" type="image/x-icon" href="./imgs/Favicon1.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="./imgs/Favicon1.webp" />
     <!-- Google Fonts Css-->
     <link rel="preconnect" href="https://fonts.googleapis.com/" />
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
@@ -64,7 +64,7 @@
                     <div class="container">
                         <!-- Logo Start -->
                         <a class="navbar-brand" href="default.aspx">
-                            <img src="imgs/logo.png" alt="Logo" />
+                            <img src="imgs/logo.webp" alt="Logo" />
                         </a>
                         <!-- Logo End -->
 
@@ -135,14 +135,14 @@
                                 </ul>
                             </div>
 
-                            <!-- Header Btn Start -->
-                            <div class="header-btn d-inline-flex">
-                                <%--<a href="#" class="btn-default btn-highlighted">get started</a>--%>
-                                <a href="javascript:void(0)" class="btn-secondary" data-bs-toggle="modal" data-bs-target="#enquireform">Book a Free Demo</a>
-
-                            </div>
+                            
                             <!-- Header Btn End -->
                         </div>
+                           <div class="header-btn d-inline-flex justify-content-end">
+       <%--<a href="#" class="btn-default btn-highlighted">get started</a>--%>
+       <a href="javascript:void(0)" class="btn-secondary" data-bs-toggle="modal" data-bs-target="#enquireform">Book a Free Demo</a>
+
+   </div>
                         <!-- Main Menu End -->
                         <div class="navbar-toggle"></div>
                     </div>
@@ -162,7 +162,7 @@
                         <div class="about-footer">
                             <!-- Footer Logo Start -->
                             <div class="footer-logo">
-                                <img src="imgs/logo-light.png" alt="" />
+                                <img src="imgs/logo-light.webp" alt="" />
                             </div>
                             <!-- Footer Logo End -->
 
@@ -259,24 +259,24 @@
                 <!-- Footer Copyright Section Start -->
                 <div class="footer-copyright">
                     <div class="row align-items-center">
-                        <div class="col-md-5">
+                        <div class="col-md-7">
                             <!-- Footer Copyright Start -->
                             <div class="footer-copyright-text">
-                                <p>Copyright © 2025 All Rights Reserved.</p>
+                                <p>Copyright © 2025 All Rights Reserved. Website Design by <a href="https://nextwebi.com/" target="_blank">Nextwebi</a></p>
                             </div>
                             <!-- Footer Copyright End -->
                         </div>
 
-                        <div class="col-md-7">
+                        <div class="col-md-5">
                             <!-- Footer Menu Start -->
                             <div class="footer-menu">
                                 <ul>
-                                    <li><a href="#">privacy policy</a></li>
-                                    <li><a href="#">terms & conditions</a></li>
+                                    <li><a href="privacy-policy.aspx">privacy policy</a></li>
+                                   <li><a href="#">Terms Of Services </a></li>
                                 </ul>
                             </div>
                             <!-- Footer Menu End -->
-                        </div>
+                        </div>   
                     </div>
                 </div>
                 <!-- Footer Copyright Section End -->
@@ -284,7 +284,7 @@
         </footer>
         <div class="whasapp-btn">
             <a href="" target="_blank" contenteditable="false" style="cursor: pointer;">
-                <img src="./imgs/whatsapp.png" alt="" srcset=""></a>
+                <img src="./imgs/whatsapp.webp" alt="" srcset=""></a>
         </div>
         <div class="modal fade" id="enquireform" tabindex="-1" aria-labelledby="brochureModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">

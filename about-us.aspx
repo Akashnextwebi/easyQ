@@ -1,9 +1,10 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="./MasterPage.master" AutoEventWireup="true" CodeFile="about-us.aspx.cs" Inherits="about_us" %>
 
-<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
-    <div class="page-header" style="background-image: url(imgs/resource/About-us.png)">
+    <div class="page-header" style="background-image: url(imgs/resource/About-us.webp)">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -25,11 +26,11 @@
     <!-- Page Header End -->
     <div class="page-about">
         <div class="container">
-            <div class="row justify-content-center">
+            <div class="row justify-content-center align-items-center">
 
-                <div class="col-lg-12">
+                <div class="col-lg-6">
                     <!-- About Us Content Start -->
-                    <div class="about-us-content text-center">
+                    <div class="about-us-content ">
                         <!-- Section Title Start -->
                         <div class="section-title">
 
@@ -53,94 +54,116 @@
                         <!-- About Content Body Start -->
                         <!-- Integration Featured Item End -->
                     </div>
-                    <div class="col-lg-12">
-                        <!-- Integration Item List Start -->
-                        <div class="integration-item-list mb-4">
-                            <!-- Integration Item Start -->
-                            <div class="integration-item about-points wow fadeInUp">
-
-                                <div class="integration-item-content">
-                                    <h3>ISO 13485:2016</h3>
-                                    <p>Quality Management Systems for Medical Devices</p>
-                                </div>
-                            </div>
-                            <div class="integration-item about-points wow fadeInUp">
-
-                                <div class="integration-item-content">
-                                    <h3>21 CFR Part 820</h3>
-                                    <p>FDA Quality System Regulation (QSR)</p>
-                                </div>
-                            </div>
-                            <div class="integration-item about-points wow fadeInUp">
-
-                                <div class="integration-item-content">
-                                    <h3>21 CFR Part 11</h3>
-                                    <p>Compliance for electronic records and signatures</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Integration Item End -->
-                        <!-- Integration Item List Start -->
-                        <!-- Integration Item Start -->
-
-                        <!-- Integration Item End -->
-                        <p class="wow fadeInUp text-center" data-wow-delay="0.2s">
-                            Our platform which is designed for global, cross-functional teams, combines key QMS modules with
-            audit-ready records, role-based access, and data encryption both in transit and at rest. All of this is
-            inbuilt on a secure, scalable cloud infrastructure.
-                        </p>
-                        <p class="wow fadeInUp text-center" data-wow-delay="0.2s">
-                            We are proud to offer India’s first Quality Management Software (eQMS) tailored for the unique needs of
-            Medical Device companies completely compliant with global regulatory frameworks like:
-                        </p>
-
-                        <div class="col-lg-12">
-                            <!-- Integration Item List Start -->
-                            <div class="integration-item-list">
-                                <!-- Integration Item Start -->
-                                <div class="integration-item wow fadeInUp">
-                                    <div class="icon-box">
-                                        <img src="imgs/certificates/3.webp" style="max-width: 115px;" alt="">
-                                    </div>
-                                    <div class="integration-item-content">
-                                        <h3>FDA (U.S.)</h3>
-                                    </div>
-                                </div>
-                                <div class="integration-item wow fadeInUp">
-                                    <div class="icon-box">
-                                        <img src="imgs/certificates/1.webp" style="max-width: 115px;" alt="">
-                                    </div>
-                                    <div class="integration-item-content">
-                                        <h3>EU MDR</h3>
-                                    </div>
-                                </div>
-                                <div class="integration-item wow fadeInUp">
-                                    <div class="icon-box">
-                                        <img src="imgs/certificates/4.webp" style="max-width: 115px;" alt="">
-                                    </div>
-                                    <div class="integration-item-content">
-                                        <h3>CDSCO (India)</h3>
-                                    </div>
-                                </div>
-                            </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="wow fadeInUp" data-wow-delay="0.2s">
 
 
-                            <p class="text-center fs-6 mt-3">
-                                <strong>And other regional authorities</strong>
-                            </p>
-
-
-                        </div>
-
-
-                        <!-- About Result Box End -->
+                        <img src="imgs/about-us.webp" class="img-fluid" />
                     </div>
                 </div>
+                <div class="col-lg-12 mt-5">
+                    <!-- Integration Item List Start -->
+                    <div class="integration-item-list mb-4">
+                        <!-- Integration Item Start -->
+                        <div class="integration-item about-points wow fadeInUp">
+
+                            <div class="integration-item-content">
+                                <h3>ISO 13485:2016</h3>
+                                <p>Quality Management Systems for Medical Devices</p>
+                            </div>
+                        </div>
+                        <div class="integration-item about-points wow fadeInUp">
+
+                            <div class="integration-item-content">
+                                <h3>21 CFR Part 820</h3>
+                                <p>FDA Quality System Regulation (QSR)</p>
+                            </div>
+                        </div>
+                        <div class="integration-item about-points wow fadeInUp">
+
+                            <div class="integration-item-content">
+                                <h3>21 CFR Part 11</h3>
+                                <p>Compliance for electronic records and signatures</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Integration Item End -->
+                    <!-- Integration Item List Start -->
+                    <!-- Integration Item Start -->
+
+                    <!-- Integration Item End -->
+
+
+                </div>
+
+
+                <!-- About Result Box End -->
+
+
+
+
+
+                <!-- About Content Footer End -->
             </div>
-            <!-- About Content Footer End -->
+            <!-- Page About Section Start -->
         </div>
-        <!-- Page About Section Start -->
-    </div>
+        <div class="container">
+            <div class="row bg-new align-items-center">
+                <div class="col-lg-6">
+                    <p class="wow fadeInUp " data-wow-delay="0.2s">
+                        Our platform which is designed for global, cross-functional teams, combines key QMS modules with
+audit-ready records, role-based access, and data encryption both in transit and at rest. All of this is
+inbuilt on a secure, scalable cloud infrastructure.
+                    </p>
+                    <p class="wow fadeInUp " data-wow-delay="0.2s">
+                        We are proud to offer India’s first Quality Management Software (eQMS) tailored for the unique needs of
+Medical Device companies completely compliant with global regulatory frameworks like:
+                    </p>
+
+
+                </div>
+                <div class="col-lg-6">
+                    <div class="integration-item-list certificate-wrap ">
+                        <!-- Integration Item Start -->
+                        <div class="integration-item wow fadeInUp ">
+                            <div class="icon-box">
+                                <img src="imgs/certificates/3.webp"  alt="">
+                            </div>
+                            <div class="integration-item-content">
+                                <h3>FDA (U.S.)</h3>
+                            </div>
+                        </div>
+                        <div class="integration-item wow fadeInUp ">
+                            <div class="icon-box">
+                                <img src="imgs/certificates/1.webp"  alt="">
+                            </div>
+                            <div class="integration-item-content">
+                                <h3>EU MDR</h3>
+                            </div>
+                        </div>
+                        <div class="integration-item wow fadeInUp ">
+                            <div class="icon-box">
+                                <img src="imgs/certificates/4.webp" alt="">
+                            </div>
+                            <div class="integration-item-content">
+                                <h3>CDSCO (India)</h3>
+                            </div>
+                        </div>
+                        <div class="integration-item new-card-bg wow fadeInUp ">
+
+                            <div class="cta-certificate integration-item-content">
+                                <h3><strong>And other regional authorities</strong>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
     <!-- Page About Section End -->
     <div class="company-activities">
         <div class="container">
@@ -149,11 +172,11 @@
                     <!-- Company Activity Box Start -->
                     <div class="company-activity-box">
                         <!-- Company Activity Item Start -->
-                        <div class="company-activity-item">
+                        <div class="company-activity-item ">
                             <!-- Company Activity image Start -->
                             <div class="company-activity-image">
                                 <figure>
-                                    <img src="imgs/about3.png" alt="">
+                                    <img src="imgs/AboutUs/standard-quality-control-concept-m1.webp" alt="">
                                 </figure>
                             </div>
                             <!-- Company Activity image End -->
@@ -196,132 +219,197 @@
         </div>
     </div>
     <!-- Our Approach Section Start -->
-    <div class="our-approach bg-light">
+        <div class="our-approach parallaxie ">
         <div class="container">
 
 
-            <div class="row ">
-                <div class="col-lg-6">
+           <div class="row align-items-center no-gutters">
+                <div class="col-lg-5">
                     <!-- Our Approach Content Start -->
                     <div class="our-approach-content">
                         <!-- Mission Vision Item Start -->
-
-                        <!-- Mission Vision Item End -->
-
-                        <!-- Mission Vision Item Start -->
-                        <div class="mission-vision-item wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="mission-vision-item wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
                             <div class="icon-box">
-                                <img src="images/icon-our-vision.svg" alt="">
-                            </div>
-                            <div class="mission-vision-content">
-                                <h3>our vision</h3>
-                                <p>
-                                                                        To revolutionize Quality management system for the Medical Device industry by implementing cloud-native, AI-driven technologies that boost regulatory excellence, speed up market entry, and remove compliance bottlenecks. 
-
-                                </p>
-                            </div>
-                        </div>
-                        <!-- Mission Vision Item End -->
-                    </div>
-                    <!-- Our Approach Content End -->
-                </div>
-                <div class="col-lg-6">
-                    <!-- Our Approach Content Start -->
-                    <div class="our-approach-content">
-                        <!-- Mission Vision Item Start -->
-                        <div class="mission-vision-item wow fadeInUp" data-wow-delay="0.2s">
-                            <div class="icon-box">
-                                <img src="images/icon-our-mission.svg" alt="">
+                                <img src="imgs/icon-our-mission.svg" alt="">
                             </div>
                             <div class="mission-vision-content">
                                 <h3>our mission</h3>
-                                <p>
-                                                                        To lead the global transformation of Medical Device Quality Systems empowering manufacturers of all sizes with smrt tools that promotes innovation, ensure patient safety, and deliver regulatory confidence at every stage.
+                                <p>To revolutionize Quality management system for the Medical Device industry by implementing cloud-native, AI-driven technologies that boost regulatory excellence, speed up market entry, and remove compliance bottlenecks. 
 
-                                </p>
+</p>
                             </div>
                         </div>
                         <!-- Mission Vision Item End -->
 
                         <!-- Mission Vision Item Start -->
+                        <div class="mission-vision-item wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                            <div class="icon-box">
+                                <img src="imgs/icon-our-vision.svg" alt="">
+                            </div>
+                            <div class="mission-vision-content">
+                                <h3>our vision</h3>
+                                <p>To lead the global transformation of Medical Device Quality Systems empowering manufacturers of all sizes with smrt tools that promotes innovation, ensure patient safety, and deliver regulatory confidence at every stage.
 
+</p>
+                            </div>
+                        </div>
+                        <!-- Mission Vision Item End -->
+
+                        <!-- Mission Vision Item Start -->
+                        
                         <!-- Mission Vision Item End -->
                     </div>
                     <!-- Our Approach Content End -->
                 </div>
 
-
-            </div>
-        </div>
-    </div>
-    <div class="company-success">
-
-
-        <div class="container">
-
-
-            <div class="company-success-item">
-                <!-- Company Success Content Start -->
-                <div class="company-success-content">
-                    <!-- Section Tite Start -->
-                    <div class="section-title">
-                        <h3 class="wow fadeInUp">Our Team</h3>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque">Meet the Minds Behind <span>easyQ Solutions!</span>
-                        </h2>
-                        <p class="wow fadeInUp" data-wow-delay="0.2s">
-                            At the heart of easyQ Solutions is a dynamic team of experts with more than 40+ years of combined experience in Regulatory Affairs, QMS and Product Development specifically formed for the Medical Device sector.
-
-                        </p>
-
-                        <p class="wow fadeInUp" data-wow-delay="0.2s">
-                            Spread across pan India, our team have extensive experience and knowledge in navigating global regulatory frameworks defined by FDA, EU MDR, CDSCO and other global regulatory bodies.
-
-                        </p>
-                        <p class="wow fadeInUp" data-wow-delay="0.2s">
-                            In addition, our professionals are well versed in industry leading standards such as ISO 13485, ISO 14971, IEC 62304 and IEC 62366 ensuring your organization remains compliant at every stage of the product lifecycle.
-
-                        </p>
-                        <p class="wow fadeInUp" data-wow-delay="0.2s">
-                            Each team member brings a unique perspective and skill set, enabling us to solve real-world challenges in Quality Management Systems (QMS) and regulatory compliance with precision and purpose.
-
-                        </p>
-                        <p class="wow fadeInUp" data-wow-delay="0.2s">
-                            We don’t just guide you through regulatory compliance, we partner with you to improve performance, increase functionality and proactively address any challenges that might have an impact on user satisfaction.
-
-                        </p>
-                        <p class="wow fadeInUp" data-wow-delay="0.2s">
-
-                            <p class="wow fadeInUp" data-wow-delay="0.2s">
-                                Whether you are launching a novel AI-based device or optimizing existing product, our team is here to help you succeed faster, smarter and with full confidence.
-
-                            </p>
-                        </p>
-                    </div>
-                    <!-- Section Tite End -->
-
-                    <!-- Company Work List Start -->
-
-                    <!-- Company Work List End -->
-                </div>
-                <!-- Company Success Content End -->
-
-                <!-- Company Success Image Start -->
-                <div class="company-success-image">
-                    <!-- Company Success Img Start -->
-                    <div class="company-success-img">
-                        <figure class="image-anime reveal">
-                            <img src="imgs/team.png" alt="">
+                <div class="col-lg-7">
+                    <!-- Our Approach Image Start -->
+                    <div class="our-approach-image">
+                        <figure class="image-anime reveal" style="transform: translate(0px, 0px); opacity: 1; visibility: inherit;">
+                            <img src="imgs/AboutUs/2.webp" alt="" style="transform: translate(0px, 0px);">
                         </figure>
                     </div>
-                    <!-- Company Success Img End -->
-
-
-                    <!-- Company Growth Image End -->
+                    <!-- Our Approach Image End -->
                 </div>
-                <!-- Company Success Image End -->
             </div>
         </div>
     </div>
+      <section class="easyq-team-section">
+        <div class="container">
+            <!-- Header -->
+            <div class="section-title text-center">
+              
+                <h2 class="">
+                    Meet the Minds Behind <span class="">easyQ Solutions!</span>
+                </h2>
+            </div>
+
+            <!-- Main Content Grid -->
+            <div class="row align-items-center easyq-content-wrapper">
+                <!-- Text Content -->
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="easyq-prose easyq-fade-in">
+                        <p class="easyq-prose-lead">
+                            At the heart of easyQ Solutions is a dynamic team of experts with more than 
+                            <span class="">40+ years of combined experience</span> in Regulatory 
+                            Affairs, QMS and Product Development specifically formed for the Medical Device sector.
+                        </p>
+
+                        <p class="easyq-content-text">
+                            Spread across pan India, our team have extensive experience and knowledge in 
+                            navigating global regulatory frameworks defined by FDA, EU MDR, CDSCO and 
+                            other global regulatory bodies.
+                        </p>
+
+                        <p class="easyq-content-text">
+                            In addition, our professionals are well versed in industry leading standards such 
+                            as ISO 13485, ISO 14971, IEC 62304 and IEC 62366 ensuring your organization 
+                            remains compliant at every stage of the product lifecycle.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Team Image -->
+                <div class="col-lg-6">
+                    <div class="easyq-image-container easyq-fade-in">
+                        <img src="imgs/teams.webp" 
+                             alt="easyQ Solutions team meeting in modern office" 
+                             class="easyq-team-image">
+                        <div class="easyq-image-overlay"></div>
+                        <!-- Floating Stats -->
+                        <div class="easyq-stats-badge">
+                            <div class="easyq-stats-number">40+</div>
+                            <p class="easyq-stats-label">Years Experience</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Highlights Grid -->
+            <div class="row g-4 easyq-highlights-grid">
+                <div class="col-md-6 col-lg-3">
+                    <div class="easyq-highlight-card easyq-fade-in">
+                        <div class="easyq-highlight-icon">
+                            <i class="bi bi-people"></i>
+                        </div>
+                        <h3 class="easyq-highlight-title">40+ Years</h3>
+                        <p class="easyq-highlight-description">
+                            Combined experience in Regulatory Affairs, QMS and Product Development
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="easyq-highlight-card easyq-fade-in">
+                        <div class="easyq-highlight-icon">
+                            <i class="bi bi-globe"></i>
+                        </div>
+                        <h3 class="easyq-highlight-title">Global Expertise</h3>
+                        <p class="easyq-highlight-description">
+                            Extensive knowledge in FDA, EU MDR, CDSCO and other regulatory frameworks
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="easyq-highlight-card easyq-fade-in">
+                        <div class="easyq-highlight-icon">
+                            <i class="bi bi-award"></i>
+                        </div>
+                        <h3 class="easyq-highlight-title">Industry Standards</h3>
+                        <p class="easyq-highlight-description">
+                            Well-versed in ISO 13485, ISO 14971, IEC 62304 and IEC 62366
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="easyq-highlight-card easyq-fade-in">
+                        <div class="easyq-highlight-icon">
+                            <i class="bi bi-bullseye"></i>
+                        </div>
+                        <h3 class="easyq-highlight-title">Full Partnership</h3>
+                        <p class="easyq-highlight-description">
+                            We don't just guide - we partner to improve performance and functionality
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom Content -->
+            <div class="easyq-content-card easyq-fade-in">
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div class="easyq-content-section">
+                            <h3 class="easyq-content-title">Our Unique Approach</h3>
+                            <p class="easyq-content-text">
+                                Each team member brings a unique perspective and skill set, enabling us to solve 
+                                real-world challenges in Quality Management Systems (QMS) and regulatory compliance 
+                                with precision and purpose.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="easyq-content-section">
+                            <h3 class="easyq-content-title">Partnership Beyond Compliance</h3>
+                            <p class="easyq-content-text">
+                                We don't just guide you through regulatory compliance, we partner with you to 
+                                improve performance, increase functionality and proactively address any challenges 
+                                that might have an impact on user satisfaction.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="easyq-cta-section">
+                    <p class="easyq-cta-text">
+                        Whether you are launching a novel AI-based device or optimizing existing product, 
+                        our team is here to help you succeed faster, smarter and with full confidence.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- Our Integrations Section Start -->
     <div class="how-we-work ">
         <div class="container">
@@ -339,11 +427,38 @@
             </div>
 
             <div class="row">
-                <div class="col-lg-12">
-                    <img src="imgs/resource/whyus.png" class="img-fluid wow fadeInUp" data-wow-delay="0.4s" />
+                <div class="col-lg-12 d-lg-block d-none">
+                    <img src="imgs/resource/whyus.webp" class="img-fluid wow fadeInUp" data-wow-delay="0.4s" />
                 </div>
+                  <div class="col-lg-12 d-lg-none d-block">
+      <img src="imgs/new.webp" class="img-fluid wow fadeInUp" data-wow-delay="0.4s" />
+  </div>
             </div>
         </div>
-    </div>
+    </div>  <script>
+        // Fade in animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        // Observe all fade-in elements
+        document.querySelectorAll('.easyq-fade-in').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Add stagger delay to highlight cards
+        document.querySelectorAll('.easyq-highlight-card').forEach((card, index) => {
+            card.style.transitionDelay = `${index * 0.1}s`;
+        });
+    </script>
 </asp:Content>
 

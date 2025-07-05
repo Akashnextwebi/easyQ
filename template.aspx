@@ -14,7 +14,7 @@
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
-    <div class="page-header" style="background-image: url(imgs/resource/templates.png)">
+    <div class="page-header" style="background-image: url(imgs/resource/templates.webp)">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">

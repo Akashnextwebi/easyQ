@@ -45,7 +45,7 @@
                                 <div class="col-lg-5 mb-2">
                                     <label>Image<sup>*</sup></label>
                                     <asp:FileUpload CssClass="form-control" ID="FileUpload1" runat="server" />
-                                    <small style="color: red;">Allow only .png, .jpeg, .jpg, .webp formats and size must be 400×320 px.</small><br />
+                                    <small style="color: red;">Allow only .png, .jpeg, .jpg, .webp formats</small><br />
                                     <%=strImage %>
                                 </div>
 

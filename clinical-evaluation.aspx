@@ -10,7 +10,7 @@
       <div class="hero-slide">
         <!-- Slider Image Start -->
         <div class="hero-slider-image">
-          <img src="imgs/sh1.jpg" alt="" />
+          <img src="imgs/Services/c.webp" alt="" />
         </div>
         <!-- Slider Image End -->
         <div class="hero-overlay"></div>
@@ -85,42 +85,42 @@
                 <!-- Slides -->
                <%-- <div class="swiper-slide">
                   <div class="our-partner-item client-logo wow fadeInUp">
-                    <img src="imgs/clients/client-1.png" alt="" />
+                    <img src="imgs/clients/client-1.webp" alt="" />
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="our-partner-item client-logo wow fadeInUp" data-wow-delay="0.2s">
-                    <img src="imgs/clients/client-2.png" alt="" />
+                    <img src="imgs/clients/client-2.webp" alt="" />
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="our-partner-item client-logo wow fadeInUp" data-wow-delay="0.4s">
-                    <img src="imgs/clients/client-3.jpg" alt="" />
+                    <img src="imgs/clients/client-3.webp" alt="" />
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="our-partner-item client-logo wow fadeInUp" data-wow-delay="0.4s">
-                    <img src="imgs/clients/client-4.png" alt="" />
+                    <img src="imgs/clients/client-4.webp" alt="" />
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="our-partner-item client-logo wow fadeInUp" data-wow-delay="0.4s">
-                    <img src="imgs/clients/client-5.png" alt="" />
+                    <img src="imgs/clients/client-5.webp" alt="" />
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="our-partner-item client-logo wow fadeInUp" data-wow-delay="0.4s">
-                    <img src="imgs/clients/client-6.png" alt="" />
+                    <img src="imgs/clients/client-6.webp" alt="" />
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="our-partner-item client-logo wow fadeInUp" data-wow-delay="0.4s">
-                    <img src="imgs/clients/client-7.png" alt="" />
+                    <img src="imgs/clients/client-7.webp" alt="" />
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="our-partner-item client-logo wow fadeInUp" data-wow-delay="0.4s">
-                    <img src="imgs/clients/SALCIT.jpg" alt="" />
+                    <img src="imgs/clients/SALCIT.webp" alt="" />
                   </div>
                 </div>--%>
               </div>
@@ -197,8 +197,9 @@
         <!-- Section Title Start -->
         <div class="section-title text-center">
           <h2 class="text-anime-style-2" data-cursor="-opaque">
-            Why Our Experts for Global Regulatory
-            <span>Approvals?</span>
+          Why Our Experts for your
+
+            <span> QMS?</span>
           </h2>
         </div>
         <!-- Section Title End -->
@@ -226,35 +227,35 @@
                       <li class="nav-item" role="presentation">
                         <button class="nav-link active" id="documents-tab" data-bs-toggle="tab"
                           data-bs-target="#documents" type="button" role="tab" aria-selected="true">
-                          <img src="./imgs/icons/cv1.png" alt="" />
+                          <img src="./imgs/icons/cv1.webp" alt="" />
                           Deep Regulatory Expertise
                         </button>
                       </li>
                       <li class="nav-item" role="presentation">
                         <button class="nav-link" id="event-tab" data-bs-toggle="tab" data-bs-target="#event"
                           type="button" role="tab" aria-selected="false">
-                          <img src="./imgs/icons/cv2.png" alt="" />
+                          <img src="./imgs/icons/cv2.webp" alt="" />
                           Comprehensive Approach
                         </button>
                       </li>
                       <li class="nav-item" role="presentation">
                         <button class="nav-link" id="tailored-tab" data-bs-toggle="tab" data-bs-target="#tailored"
                           type="button" role="tab" aria-selected="false">
-                          <img src="./imgs/icons/cv3.png" alt="" />
+                          <img src="./imgs/icons/cv3.webp" alt="" />
                           Tailored Solutions
                         </button>
                       </li>
                       <li class="nav-item" role="presentation">
                         <button class="nav-link" id="puccess-tab" data-bs-toggle="tab" data-bs-target="#puccess"
                           type="button" role="tab" aria-selected="false">
-                          <img src="./imgs/icons/cv4.png" alt="" />
+                          <img src="./imgs/icons/cv4.webp" alt="" />
                           Proven Success
                         </button>
                       </li>
                       <li class="nav-item" role="presentation">
                         <button class="nav-link" id="sessions-tab" data-bs-toggle="tab" data-bs-target="#sessions"
                           type="button" role="tab" aria-selected="false">
-                          <img src="./imgs/icons/cv5.png" alt="" />
+                          <img src="./imgs/icons/cv5.webp" alt="" />
                           Effective and Efficient
                         </button>
                       </li>
@@ -287,7 +288,7 @@
                     <!-- Feature Tab Content Header Start -->
                     <div class="feature-tab-content-header">
                       <div class="icon-box">
-                        <img src="./imgs/icons/cv1.png" alt="" />
+                        <img src="./imgs/icons/cv1.webp" alt="" />
                       </div>
                       <div class="feature-tab-header-content">
                         <h3>Deep Regulatory Expertise</h3>
@@ -318,7 +319,7 @@
                   <!-- Feature Tab Image Start -->
                   <div class="feature-tab-img">
                     <figure>
-                      <img src="./imgs/icons/ww1.png" alt="" />
+                      <img src="./imgs/icons/ww1.webp" alt="" />
                     </figure>
                   </div>
                   <!-- Feature Tab Image End -->
@@ -336,7 +337,7 @@
                     <!-- Feature Tab Content Header Start -->
                     <div class="feature-tab-content-header">
                       <div class="icon-box">
-                        <img src="./imgs/icons/cv2.png" alt="" />
+                        <img src="./imgs/icons/cv2.webp" alt="" />
                       </div>
                       <div class="feature-tab-header-content">
                         <h3>Comprehensive Approach</h3>
@@ -367,7 +368,7 @@
                   <!-- Feature Tab Image Start -->
                   <div class="feature-tab-img">
                     <figure>
-                      <img src="./imgs/icons/ww2.png" alt="" />
+                      <img src="./imgs/icons/ww2.webp" alt="" />
                     </figure>
                   </div>
                   <!-- Feature Tab Image End -->
@@ -384,7 +385,7 @@
                     <!-- Feature Tab Content Header Start -->
                     <div class="feature-tab-content-header">
                       <div class="icon-box">
-                        <img src="./imgs/icons/cv3.png" alt="" />
+                        <img src="./imgs/icons/cv3.webp" alt="" />
                       </div>
                       <div class="feature-tab-header-content">
                         <h3>Tailored Success</h3>
@@ -415,7 +416,7 @@
                   <!-- Feature Tab Image Start -->
                   <div class="feature-tab-img">
                     <figure>
-                      <img src="./imgs/icons/ww3.png" alt="" />
+                      <img src="./imgs/icons/ww3.webp" alt="" />
                     </figure>
                   </div>
                   <!-- Feature Tab Image End -->
@@ -432,7 +433,7 @@
                     <!-- Feature Tab Content Header Start -->
                     <div class="feature-tab-content-header">
                       <div class="icon-box">
-                        <img src="./imgs/icons/cv3.png" alt="" />
+                        <img src="./imgs/icons/cv3.webp" alt="" />
                       </div>
                       <div class="feature-tab-header-content">
                         <h3>Proven Success</h3>
@@ -462,7 +463,7 @@
                   <!-- Feature Tab Image Start -->
                   <div class="feature-tab-img">
                     <figure>
-                      <img src="./imgs/icons/ww3.png" alt="" />
+                      <img src="./imgs/icons/ww3.webp" alt="" />
                     </figure>
                   </div>
                   <!-- Feature Tab Image End -->
@@ -480,7 +481,7 @@
                     <!-- Feature Tab Content Header Start -->
                     <div class="feature-tab-content-header">
                       <div class="icon-box">
-                        <img src="./imgs/icons/cv5.png" alt="" />
+                        <img src="./imgs/icons/cv5.webp" alt="" />
                       </div>
                       <div class="feature-tab-header-content">
                         <h3>Effective and Efficient</h3>
@@ -510,7 +511,7 @@
                   <!-- Feature Tab Image Start -->
                   <div class="feature-tab-img">
                     <figure>
-                      <img src="./imgs/icons/ww4.png" alt="" />
+                      <img src="./imgs/icons/ww4.webp" alt="" />
                     </figure>
                   </div>
                   <!-- Feature Tab Image End -->
@@ -528,7 +529,7 @@
                     <!-- Feature Tab Content Header Start -->
                     <div class="feature-tab-content-header">
                       <div class="icon-box">
-                        <img src="./imgs/icons/cv4.png" alt="" />
+                        <img src="./imgs/icons/cv4.webp" alt="" />
                       </div>
                       <div class="feature-tab-header-content">
                         <h3>Proven Success</h3>
@@ -559,7 +560,7 @@
                   <!-- Feature Tab Image Start -->
                   <div class="feature-tab-img">
                     <figure>
-                      <img src="./imgs/icons/ww4.png" alt="" />
+                      <img src="./imgs/icons/ww4.webp" alt="" />
                     </figure>
                   </div>
                   <!-- Feature Tab Image End -->

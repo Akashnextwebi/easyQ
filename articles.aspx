@@ -8,7 +8,7 @@
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
-    <div class="page-header" style="background-image: url(imgs/resource/banner.png)">
+    <div class="page-header" style="background-image: url(imgs/resource/banner.webp)">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
